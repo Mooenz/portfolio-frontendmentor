@@ -1,0 +1,107 @@
+:root {
+  --main-bg-color: hsl(233, 47%, 7%);
+  --main-bg-card-color: hsl(244, 38%, 16%);
+  --main-bg-accent-color: hsl(277, 64%, 61%);
+  --main-color-font-heading: hsl(0, 0%, 100%);
+  --main-color-font-paragraph: hsla(0, 0%, 100%, 0.75);
+  --main-color-font-stats: hsla(0, 0%, 100%, 0.6);
+  --main-font-family-body: 'Inter', sans-serif;
+  --main-img-mobile: url(./images/image-header-mobile.jpg);
+}
+
+body {
+  margin: 70px 15px;
+  background-color: var(--main-bg-color);
+  font-family: var(--main-font-family-body);
+}
+
+figure {
+  margin: 0;
+}
+
+.img {
+  background-image: var(--main-img-mobile);
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+  height: 270px;
+}
+
+.borde-radius-top {
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.overlay {
+  position: relative;
+  margin: -270px 0 0 0;
+  background-color: rgba(89, 0, 145, 0.5);
+  z-index: 1;
+  height: 270px;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.main-section {
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: var(--main-bg-card-color);
+  height: 100%;
+}
+
+.container-main {
+  padding: 30px;
+    
+}
+
+.container-body {
+  margin: 20px 0;
+
+}
+
+.container-body p {
+  color: var(--main-color-font-paragraph);
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 180%;
+}
+
+.container-body  h1 {
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: 700;
+  color: var(--main-color-font-heading);
+}
+.accent {color: var(--main-bg-accent-color);}
+
+.container-stats {
+  margin: 30px 0px 10px 0px;
+  text-align: center;
+}
+
+.container-stats h2 {
+  margin: 5px;
+}
+
+.container-stats p {
+  margin:0;
+  color: var(--main-color-font-stats);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.stat {
+  margin: 15px;
+}
