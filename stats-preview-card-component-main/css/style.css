@@ -28,14 +28,14 @@ body {
   height: 100%;
 }
 
-main {
-  height: 100%;
-  display: flex;    
+main {   
   padding: 70px 15px;
 }
 
 .img {
-  background:var(--main-img-mobile);
+  background-color: var(--main-bg-accent-color);
+  background-image:var(--main-img-mobile);
+  background-blend-mode:multiply;
   background-size: cover;
   background-repeat:no-repeat;
   width: 100%;
@@ -46,18 +46,9 @@ main {
   border-radius: 10px 10px 0px 0px;
 }
 
-.overlay {
-  position: relative;
-  margin: -270px 0 0 0;
-  background-color: rgba(89, 0, 145, 0.5);
-  z-index: 1;
-  height: 270px;
-}
-
 .main-section { 
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 10px;
   background-color: var(--main-bg-card-color);
-  
 }
 
 .container-main {
@@ -127,15 +118,8 @@ h1, h2 {
 }
 
 @media (min-width:700px) {
-  main {
-    padding: 0;
-  }
   .img {
     background-image: var(--main-img-desktop);
-    height: 400px;
-  }
-  .overlay {
-    margin: -400px 0 0 0;
     height: 400px;
   }
   
@@ -145,7 +129,12 @@ h1, h2 {
   }
 }
 
-@media (min-width:1024px) {  
+@media (min-width:1024px) {
+  main {
+    padding: 0;
+    height: 100%;
+    display: flex;
+  }
   .img {
     background-image: var(--main-img-desktop);
     background-size: cover;
@@ -167,7 +156,7 @@ h1, h2 {
   .container-main {
     border-radius: 10px 0 0 10px;
     width: 50%;
-    padding: 0 0 0 50px;
+    padding: 0 50px ;
   }
 
   .container-body  h1 {
@@ -188,5 +177,11 @@ h1, h2 {
 
   .stat {
     margin: 0 60px 0 0;
+  }
+}
+
+@media (min-width:1250px) { 
+  .main-section {
+    width: 1024px;
   }
 }
