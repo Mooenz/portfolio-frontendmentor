@@ -1,0 +1,108 @@
+:root {
+  --font-main: 'Manrope', sans-serif;
+  --color-font-primary:  hsl(217, 19%, 35%);
+  --color-font-secondary: hsl(214, 17%, 51%);
+  --color-font-thirty: hsl(212, 23%, 69%);
+  --bg-section:hsl(210, 46%, 95%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  font-family: var(--font-main);
+  font-size: 13px;
+  background-color: var(--bg-section);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  margin: 70px 20px;
+}
+
+.img-article {
+  background-image:url(./images/drawers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+  height: 300px;
+}
+
+.container-article {
+  background-color: white;
+  width: 450px;
+  border-radius: 10px;
+}
+
+.container-info {
+  padding: 40px;
+}
+
+.info-article {
+  margin-bottom: 50px;
+}
+
+.container-info h1 {
+  margin-bottom: 20px;
+  font-size: 23px;
+  font-weight: 700;
+  color: var(--color-font-primary);
+}
+
+.container-info p {
+  color: var(--color-font-secondary);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.container-user-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-card {
+  display: flex;
+}
+
+.user-card img {
+  border-radius: 50%;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.container-infomation-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-infomation-user span {
+  font-size: 18px;
+}
+
+.container-infomation-user span:first-of-type {
+  color: var(--color-font-primary);
+  font-weight: 700;
+}
+
+.container-infomation-user span {
+  color: var(--color-font-secondary);
+  font-weight: 500;
+}
+
+.share {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: var(--bg-section);
+}
