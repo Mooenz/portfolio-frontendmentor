@@ -106,12 +106,20 @@ section {
 }
 
 .container-social-media {
-
+  display: flex;
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+  background-color: var(--color-font-primary);
+  padding: 25px;
+  opacity: 0;
 }
-
-.social-media {
-  height: 16px;
-  width: 16px;
+.container-social-media span {
+  line-height: 130%;
+  font-weight:lighter;
+  color:white;
+}
+.container-social-media svg {
+  margin-left: 20px;
 }
 
 @media (min-width:500px) { 
