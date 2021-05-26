@@ -3,7 +3,7 @@
   --color-font-primary:  hsl(217, 19%, 35%);
   --color-font-secondary: hsl(214, 17%, 51%);
   --color-font-thirty: hsl(212, 23%, 69%);
-  --bg-section:hsl(210, 46%, 95%);
+  --bg-section: hsl(210, 46%, 95%)
 }
 
 * {
@@ -64,8 +64,8 @@ section {
 
 .container-user-card {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .user-card {
@@ -99,6 +99,19 @@ section {
   width: 32px;
   border-radius: 50%;
   background-color: var(--bg-section);
+}
+
+.active {
+  background-color: var(--color-font-secondary);
+}
+
+.container-social-media {
+
+}
+
+.social-media {
+  height: 16px;
+  width: 16px;
 }
 
 @media (min-width:500px) { 
