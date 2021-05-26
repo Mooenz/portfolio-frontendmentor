@@ -14,8 +14,9 @@
 
 html {
   font-family: var(--font-main);
-  font-size: 13px;
   background-color: var(--bg-section);
+  font-size: 13px;
+  height: 100vh;
 }
 
 main {
@@ -28,40 +29,37 @@ section {
   margin: 70px 20px;
 }
 
-.img-article {
-  background-image:url(./images/drawers.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 10px 10px 0 0;
-  height: 300px;
-}
-
 .container-article {
   background-color: white;
-  width: 450px;
+  width: 300px;
   border-radius: 10px;
+  box-shadow:  12px 22px 20px rgba(0, 0, 0, 0.1);
+}
+
+.img-article {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  object-fit: cover;
 }
 
 .container-info {
-  padding: 40px;
+  padding: 25px;
 }
 
 .info-article {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 .container-info h1 {
   margin-bottom: 20px;
-  font-size: 23px;
   font-weight: 700;
   color: var(--color-font-primary);
 }
 
 .container-info p {
   color: var(--color-font-secondary);
-  font-size: 18px;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 23px;
 }
 
 .container-user-card {
@@ -76,8 +74,8 @@ section {
 
 .user-card img {
   border-radius: 50%;
-  height: 60px;
-  margin-right: 20px;
+  height: 40px;
+  margin-right: 15px;
 }
 
 .container-infomation-user {
@@ -86,23 +84,91 @@ section {
   justify-content: center;
 }
 
-.container-infomation-user span {
-  font-size: 18px;
-}
-
 .container-infomation-user span:first-of-type {
   color: var(--color-font-primary);
   font-weight: 700;
 }
 
 .container-infomation-user span {
-  color: var(--color-font-secondary);
+  color: var(--color-font-thirty);
   font-weight: 500;
 }
 
 .share {
-  height: 50px;
-  width: 50px;
+  height: 32px;
+  width: 32px;
   border-radius: 50%;
   background-color: var(--bg-section);
+}
+
+@media (min-width:500px) { 
+  .container-article {
+    width: 400px;
+  }
+
+  .img-article {
+    height: 300px;  
+  }
+
+  .container-info h1 {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  
+  .container-info p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .user-card img {
+    height: 50px;
+    margin-right: 20px;
+  }  
+  
+  .container-infomation-user {
+    font-size: 15px;
+  }
+
+  .share {
+    height: 35px;
+    width: 35px;
+  }
+}
+
+@media (min-width:650px) { 
+  .container-article {
+    width: 500px;
+  }
+  .container-info h1 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:1024px) { 
+  body, main {
+    height: 100%;
+  }
+
+  .container-article {
+    display: flex;
+    width: 900px;
+  }
+
+  .img-article {
+    height: 340px;  
+  }
+
+  .container-info h1 {
+    font-size: 23px;
+  }
+  
+  .container-info p {
+    font-size: 16px;   
+  }
+
+  .img-article {
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+    object-fit: cover;
+  }
 }
