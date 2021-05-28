@@ -1,9 +1,10 @@
 const $share = document.querySelector('.share');
 const $path = document.querySelector('.path');
+const $container_social_media = document.querySelector('.container-social-media')
 
 const active = () => {
+  $container_social_media.classList.toggle('active-social-media');
   if ($share.classList.toggle('active')) {
-    $share.setAttribute = ('class', 'active');    
     $path.setAttribute('fill', "#ecf2f8");
   } else {
     $share.className = 'share';

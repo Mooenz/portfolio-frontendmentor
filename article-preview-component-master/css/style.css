@@ -43,7 +43,8 @@ section {
 }
 
 .container-info {
-  padding: 25px;
+  padding: 25px 25px 15px 25px;
+  position: relative;
 }
 
 .info-article {
@@ -81,7 +82,7 @@ section {
 .container-infomation-user {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .container-infomation-user span:first-of-type {
@@ -99,10 +100,14 @@ section {
   width: 32px;
   border-radius: 50%;
   background-color: var(--bg-section);
+  z-index: 1;
+  cursor: pointer;
+  transition: all 1s;
 }
 
 .active {
   background-color: var(--color-font-secondary);
+  transition: all 0.7s;
 }
 
 .container-social-media {
@@ -112,57 +117,29 @@ section {
   background-color: var(--color-font-primary);
   padding: 25px;
   opacity: 0;
+  visibility: hidden;
+  transition: all 0.7s;
+  position: absolute;
+  right: 0;
+  left: 0;  
+  margin: auto;
 }
-.container-social-media span {
-  line-height: 130%;
-  font-weight:lighter;
+
+.container-social-media span { 
+  letter-spacing:5px;
   color:white;
+  font-weight:200
 }
+
 .container-social-media svg {
   margin-left: 20px;
+  cursor: pointer;
 }
 
-@media (min-width:500px) { 
-  .container-article {
-    width: 400px;
-  }
-
-  .img-article {
-    height: 300px;  
-  }
-
-  .container-info h1 {
-    font-size: 18px;
-    margin-bottom: 25px;
-  }
-  
-  .container-info p {
-    font-size: 15px;
-    line-height: 25px;
-  }
-
-  .user-card img {
-    height: 50px;
-    margin-right: 20px;
-  }  
-  
-  .container-infomation-user {
-    font-size: 15px;
-  }
-
-  .share {
-    height: 35px;
-    width: 35px;
-  }
-}
-
-@media (min-width:650px) { 
-  .container-article {
-    width: 500px;
-  }
-  .container-info h1 {
-    font-size: 20px;
-  }
+.active-social-media {
+  visibility: visible;
+  opacity: 1;
+  transition: all 1s;
 }
 
 @media (min-width:1024px) { 
@@ -176,7 +153,7 @@ section {
   }
 
   .img-article {
-    height: 340px;  
+    height: 315px;
   }
 
   .container-info h1 {
@@ -191,5 +168,26 @@ section {
     border-radius: 10px 0 0 10px;
     width: 100%;
     object-fit: cover;
+  }
+
+  .container-social-media {
+    justify-content: center;
+    width: 40%;
+    top: 166px;
+    left: 333px;
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-shadow: 12px 22px 20px rgb(0 0 0 / 10%);
+  }
+
+  .container-social-media::after {
+    position: absolute;
+    content: '';
+    height: 18px;
+    width: 18px;
+    background: var(--color-font-primary);
+    left: 47%;
+    bottom: -9px;
+    transform: rotate(45deg);
   }
 }
