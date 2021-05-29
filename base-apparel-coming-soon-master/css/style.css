@@ -1,0 +1,89 @@
+:root {
+  --font-family-main : 'Josefin Sans', sans-serif;
+  --primary-acent: hsl(0, 36%, 70%);
+  --primary-color: hsl(0, 6%, 24%);
+  /* --primary-color: hsl(0, 93%, 68%); */
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: var(--font-family-main);
+  color: var(--primary-color);
+  font-size: 16px;
+}
+
+html {
+  height: 100vh;
+}
+
+.container-nav {
+  padding: 30px;
+}
+
+.container-nav img {
+  width: 33%;
+}
+
+.container-img img {
+  width: 100%;
+}
+
+.container-info {
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.container-info h1 span {
+  color: var(--primary-acent);
+  font-weight: 300;
+  
+}
+
+.container-info h1, .container-info h1 span {
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 8px; 
+}
+
+.container-info h1 {
+  margin-bottom: 20px;
+}
+
+.container-info p {
+  color: var(--primary-acent);
+  font-weight: 300;
+  line-height: 150%;
+  margin-bottom: 20px; 
+}
+
+form {
+  margin: 20px 0;
+  padding: 15px 25px;
+  border-radius: 50px;
+  border: 1px var(--primary-acent) solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+form input:first-child {
+  outline: none;
+}
+
+form input::-webkit-input-placeholder {
+  color: var(--primary-acent);
+  padding-top: 30px;
+  font-size: 15px;
+}
+
+.button {
+  color:white;
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  padding: 15px 25px;
+  border-radius: 30px;
+  position: absolute;
+  right: 10%;
+  top: 80%;
+}
