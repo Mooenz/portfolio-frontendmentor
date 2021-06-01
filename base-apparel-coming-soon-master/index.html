@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./css/images/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <title>Base Apparel coming soon page - Mooenz</title>
   </head>
   <body>
     <main>
@@ -15,22 +15,32 @@
         <div class="container-nav">
           <img src="./css/images/logo.svg" alt="logo">
         </div>
-        <div class="container-img">
-          <img src="./css/images/hero-mobile.jpg" alt="">
-        </div>
-        <div class="container-info">
-          <h1><span>we're</span><br>coming<br>soon</h1>
-          <p>
-            Hello fellow shoppers! We´re currently building our new fashion store. 
-            Add your email below to stay up-to-date with annoincements and our 
-            launch deals.
-          </p>
-          <form action="" class="form">
-            <input type="email" name="email" id="email" placeholder="Email Anddres">
-            <div class="button">></div>
-          </form>
-        </div>
+        <header class="header">
+          <picture class="container-img">
+            <source media="(min-width: 1024px)" srcset="./css/images/hero-desktop.jpg" sizes="1024px">
+            <img src="./css/images/hero-mobile.jpg" alt="hero">
+          </picture>
+          <div class="container-info">
+            <h1><span>we're</span><br>coming<br>soon</h1>
+            <p>
+              Hello fellow shoppers! We´re currently building our new fashion store. 
+              Add your email below to stay up-to-date with annoincements and our 
+              launch deals.
+            </p>
+            <div class="form">
+              <input class="email" type="email" name="email" id="email" placeholder="Email Anddres">
+              <button class="button">
+                <img class="icon-error" src="./css/images/icon-error.svg" alt="icon error">
+                <img src="./css/images/icon-arrow.svg" alt="icon arrow">
+              </button>
+            </div>
+            <div class="contenedor-label">
+              <label class="label" for="mensaje"></label>
+            </div>
+          </div>
+        </header>
       </section>
     </main>
+    <script src="./index.js"></script>
   </body>
 </html>
