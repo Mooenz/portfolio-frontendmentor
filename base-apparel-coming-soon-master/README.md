@@ -1,6 +1,6 @@
 # By Mooenz - Base Apparel coming soon page
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0). 
+This is a solution to the [Base Apparel coming soon page on Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0). 
 
 ## Table of contents
 
@@ -47,7 +47,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Stats preview card component challenge.]()
+- Solution URL: [Base Apparel coming soon page.](https://www.frontendmentor.io/solutions/html-css-flexbox-and-mobile-first-ZW0uZdcwI)
 - Live Site URL: [Solution on github pages.](https://mooenz.github.io/Frontend-portafolio/base-apparel-coming-soon-master/)
 
 ## My process
