@@ -11,7 +11,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -26,18 +25,30 @@ Users should be able to:
 ### Solution screenshot
 
 #### Mobile
+![Mobile](./solution-capture/mooenz-mobile-normal-solution.png)
 
-![Mobile]()
+#### Mobile sucess
+![Mobile sucess](./solution-capture/mooenz-mobile-sucess-solution.png)
+
+#### Mobile error
+![Mobile error](./solution-capture/mooenz-mobile-error-solution.png)
+
+
 
 #### Desktop
+![Desktop](./solution-capture/mooenz-desktop-normal-solution.png)
 
-![Desktop]()
+#### Desktop sucess
+![Desktop sucess](./solution-capture/mooenz-desktop-sucess-solution.png)
+
+#### Desktop error
+![Desktop error](./solution-capture/mooenz-desktop-error-solution.png)
 
 
 ### Links
 
 - Solution URL: [Stats preview card component challenge.]()
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/Frontend-portafolio/Base-Apparel-coming-soon-page-master/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/Frontend-portafolio/base-apparel-coming-soon-master/)
 
 ## My process
 
@@ -47,24 +58,16 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- Responsive design
+- JS Vanila
 
 ### What I learned
 
-I learned who recreate images like spotify for a background:
+I learned email validation with regular expressions.
 
-```html
-
+```js
+const regex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 ```
-
-```css
-
-```
-
-
-### Continued development
-
-
+This regular expressions is stack overflow.
 
 ## Author
 
