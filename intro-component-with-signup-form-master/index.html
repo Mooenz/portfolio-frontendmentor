@@ -19,10 +19,30 @@
         <div class="container-form">
           <h2>Try it free 7 days <span>then $20/mo. thereafter</span></h2>
           <form >
-            <input type="text" name="name" id="name" placeholder="First Name" />
-            <input type="text" name="last-name" id="last-name" placeholder="Last Name" />
-            <input type="email" name="email" id="email" placeholder="Email Address">
-            <input type="password" name="password" id="password" placeholder="Password">
+            <input class="input" type="text" name="name" id="name" placeholder="First Name" />
+            <div class="container-icon-error">
+              <img class="icon-error"  src="./css/images/icon-error.svg" alt="icon error">
+            </div>
+            <label class="label" for="name">First Name cannot be empty</label>
+
+            <input class="input" type="text" name="last-name" id="last-name" placeholder="Last Name" />
+            <div class="container-icon-error">
+              <img class="icon-error"  src="./css/images/icon-error.svg" alt="icon error">
+            </div>            
+            <label class="label" for="last-name">Last Name cannot be empty</label>
+            
+            <input class="input" type="email" name="email" id="email" placeholder="Email Address">
+            <div class="container-icon-error">              
+              <img class="icon-error"  src="./css/images/icon-error.svg" alt="icon error">
+            </div>
+            <label class="label" for="email">Looks like this is not on email</label>
+            
+            <input class="input" type="password" name="password" id="password" placeholder="Password">
+            <div class="container-icon-error">              
+              <img class="icon-error"  src="./css/images/icon-error.svg" alt="icon error">            
+            </div>
+            <label class="label" for="password">Password cannot be empty</label>
+            
             <input class="button" id="button" type="button" value="Claim your free trial" />
             <p>By clicking the button, you are agreeing to our <a href="">Terms and Services</a></p>
           </form>          
