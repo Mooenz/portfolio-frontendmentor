@@ -1,0 +1,128 @@
+:root {
+  --color-dark-blue: hsl(238, 29%, 16%);
+  --color-red: hsl(14, 88%, 65%);
+  --color-dividers: hsl(240, 5%, 91%);
+  --color-gray-very-dark:hsl(237, 12%, 33%);
+  --color-gray-dark:hsl(240, 6%, 50%);
+  --font-main:'Kumbh Sans', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html, body {
+  height: 100vh;
+  font-size: 12px;
+  font-family: var(--font-main);
+  color: var(--color-dark-blue);
+}
+
+section {
+  padding: 60px 20px;
+  background: linear-gradient(180deg, rgba(175,103,233,1) 0%, rgba(101,101,231,1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-img {
+  position: relative;
+  width: 320px;
+  height: 100px;
+}
+
+.container-img .firts-img {
+  position: absolute;
+  top: -7px;
+  right: 43px;
+}
+
+.container-img .second-img {
+  position: absolute;
+  top: 101px;
+  right: 41px;
+}
+
+.container-faq {
+  background-color: white;
+  border-radius: 30px;
+  padding: 130px 20px 50px 20px;
+}
+
+.container-faq h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  width: 300px;
+}
+
+.container-faq .container-once-faq .sub-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px var(--color-dividers) solid;
+}
+
+.container-faq .container-once-faq .sub-title h3 {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.container-faq .container-once-faq .sub-title:hover  {
+  color: var(--color-red);
+}
+
+.container-faq .container-once-faq .sub-title .arrow {
+  height: 7px;
+  width: 10px;
+  padding: 16px;
+}
+
+.container-faq .container-once-faq .text-faq {
+  line-height: 20px;
+  padding: 5px 30px 10px 0;
+  border-bottom: 1px var(--color-dividers) solid;
+  color: var(--color-gray-dark);
+  width: 80%;
+  display:none;
+
+}
+
+/* Toggle*/
+
+.container-faq .active .sub-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0;
+}
+
+.container-faq .active .text-faq {
+  line-height: 20px;
+  padding: 5px 30px 10px 0;
+  border-bottom: 1px var(--color-dividers) solid;
+  color: var(--color-gray-dark);
+  width: 80%;
+  display:inline-block;
+  font-size: 12px;
+}
+
+.container-faq .active .sub-title h3 {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-dark-blue);
+}
+
+.container-faq .active .sub-title .arrow {
+  transform: rotate(180deg);
+  height: 7px;
+  width: 10px;
+  padding: 16px;
+}
+
+/* Toggle*/
