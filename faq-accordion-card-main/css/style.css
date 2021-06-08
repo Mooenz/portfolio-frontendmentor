@@ -20,84 +20,97 @@ html, body {
   color: var(--color-dark-blue);
 }
 
+main {
+  height: 100%;
+}
+
 section {
-  padding: 60px 20px;
+  padding: 100px 25px 25px;
   background: linear-gradient(180deg, rgba(175,103,233,1) 0%, rgba(101,101,231,1) 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .container-img {
   position: relative;
-  width: 320px;
+  width: 100px;
   height: 100px;
 }
 
-.container-img .firts-img {
-  position: absolute;
-  top: -7px;
-  right: 43px;
+.box {
+  display: none;
 }
 
-.container-img .second-img {
+.container-img .firts-mobile-img {
   position: absolute;
-  top: 101px;
-  right: 41px;
+  top: -158px;
+  right: -70px;
 }
 
-.container-faq {
+.container-img .second-mobile-img {
+  position: absolute;
+  top: -50px;
+  right: -85px;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: white;
   border-radius: 30px;
-  padding: 130px 20px 50px 20px;
+  padding: 50px 20px;
+  box-shadow: 0px 18px 50px 0px rgba(0,0,0,0.39);
 }
 
-.container-faq h1 {
+.container-main .container-title h1 {
   display: flex;
   justify-content: center;
   font-size: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   position: relative;
-  
 }
 
-.container-faq .container-once-faq .sub-title {
+.container-main .container-once-faq .sub-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px var(--color-dividers) solid;
 }
 
-.container-faq .container-once-faq .sub-title h3 {
+.container-main .container-once-faq .sub-title h3 {
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 400;  
 }
 
-.container-faq .container-once-faq .sub-title:hover  {
+.container-main .container-once-faq .sub-title:hover  {
   color: var(--color-red);
 }
 
-.container-faq .container-once-faq .sub-title .arrow {
+.container-main .container-once-faq .sub-title .arrow {
   height: 7px;
   width: 10px;
-  padding: 16px;
+  padding: 16px 0 16px 16px;
 }
 
-.container-faq .container-once-faq .text-faq {
+.container-main .container-once-faq .text-faq {
   border-bottom: 1px var(--color-dividers) solid;
   display:none;
 }
 
 /* Toggle*/
 
-.container-faq .active .sub-title {
+.container-main .active .sub-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 0;
 }
 
-.container-faq .active .text-faq {
+.container-main .active .text-faq {
   line-height: 20px;
   padding: 5px 20px 10px 0;
   border-bottom: 1px var(--color-dividers) solid;
@@ -105,19 +118,79 @@ section {
   width: 90%;
   display:inline-block;
   font-size: 12px;
+  transition: all 0.7s;
 }
 
-.container-faq .active .sub-title h3 {
+.container-main .active .sub-title h3 {
   font-size: 13px;
   font-weight: 700;
   color: var(--color-dark-blue);
 }
 
-.container-faq .active .sub-title .arrow {
+.container-main .active .sub-title .arrow {
   transform: rotate(180deg);
   height: 7px;
   width: 10px;
-  padding: 16px;
+  padding: 16px 16px 16px 0;
 }
 
 /* Toggle*/
+
+@media (min-width:500px) {
+  .container-main .active .text-faq {
+    width: 80%;
+  }
+  .container-main {
+    width: 400px;
+  }
+}
+
+@media (min-width:850px) {
+  main {
+    height: 100%;
+  }
+
+  section {
+    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .container-img {
+    width: 100%;
+    height: 471px;
+    background: url(images/illustration-woman-online-desktop.svg) bottom 50px left -76px no-repeat, url(images/bg-pattern-desktop.svg) bottom -160px left -570px no-repeat;
+  }
+
+  .container-img .firts-mobile-img {
+    display: none;
+  }
+  
+  .container-img .second-mobile-img {
+    display: none;
+  }
+
+  .container-main {
+    width: 900px;
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .container-faq {
+    width: 70%;
+    padding: 80px 80px 80px 20px;
+  }
+  
+  .container-main .container-title h1 {
+    justify-content: start;
+  }
+
+  .box {
+    display: block;
+    position: absolute;
+    top:200px;
+    left:-93px;
+  }
+}
