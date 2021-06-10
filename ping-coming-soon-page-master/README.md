@@ -52,7 +52,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Stats preview card component challenge.]()
+- Solution URL: [Ping coming soon page challenge.](https://www.frontendmentor.io/solutions/html-css-flexbox-mobile-first-responsive-design-vanila-js-S-wNd2haz)
 - Live Site URL: [Solution on github pages.](https://mooenz.github.io/Frontend-portafolio//ping-coming-soon-page-master/)
 
 ## My process
