@@ -18,10 +18,15 @@
       <h1> <span>We are launching</span> soon!</h1>
       <h4>Subscribe and get notified</h4>
       <form class="form">
-        <input type="email" name="email" id="email" placeholder="Your email address">
-        <input type="button" value="Notify Me">
+        <div class="container-email">
+          <input type="email" name="email" id="email" placeholder="Your email address">
+          <label id="label" for="notification"></label>
+        </div>
+        <input class="button" type="button" value="Notify Me">
       </form>
-      <img src="./css/images/illustration-dashboard.png"  height="200px" alt="dashboard">
+      <div class="container-img">
+        <img src="./css/images/illustration-dashboard.png"  height="200px" alt="dashboard">
+      </div>
       <div class="container-social-media">
         <div class="icon">
           <i class="fab fa-facebook-f"></i>
@@ -33,9 +38,9 @@
           <i class="fab fa-instagram"></i>
         </div>
       </div>
-      <span>
-        &copy; Copyright Ping. All rights reserved.
-      </span>
+      <footer class="footer">
+        <span>&copy; Copyright Ping. All rights reserved.</span>
+      </footer>
     </section>
   <script src="./index.js"></script>
   </body>
