@@ -61,28 +61,28 @@ Los proyectos pertenecen a [Frontend mentor](https://www.frontendmentor.io/).
 # Proyectos Junior
 
 ## Testimonials grid section 
-[Look at code here]()
-![Desktop](.//solution-capture/mooenz-desktop-solution.png)
+[Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/testimonials-grid-section-main)
+![Desktop](./testimonials-grid-section-main/solution-capture/mooenz-desktop-solution.png)
 
 ## Sunnyside agency landing page
-[Look at code here]()
-![Desktop](.//solution-capture/mooenz-desktop-solution.png)
+[Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/sunnyside-agency-landing-page-main)
+![Desktop](./sunnyside-agency-landing-page-main/solution-capture/mooenz-desktop-solution.png)
 
 ## Interactive pricing component
-[Look at code here]()
-![Desktop](.//solution-capture/mooenz-desktop-solution.png)
+[Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/interactive-pricing-component-main)
+![Desktop](./interactive-pricing-component-main/solution-capture/mooenz-desktop-solution.png)
 
 ## Fylo data storage component 
-[Look at code here]()
-![Desktop](.//solution-capture/mooenz-desktop-solution.png)
+[Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/fylo-data-storage-component-master)
+![Desktop](./fylo-data-storage-component-master/solution-capture/mooenz-desktop-solution.png)
 
 ## Social media dashboard with theme switcher 
-[Look at code here]()
-![Desktop](.//solution-capture/mooenz-desktop-solution.png)
+[Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/social-media-dashboard-with-theme-switcher-master)
+![Desktop](./social-media-dashboard-with-theme-switcher-master/solution-capture/mooenz-desktop-solution.png)
 
 ## Crowdfunding product page. 
-[Look at code here]()
-![Desktop](.//solution-capture/mooenz-desktop-solution.png)
+[Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/crowdfunding-product-page-main)
+![Desktop](./crowdfunding-product-page-main/solution-capture/mooenz-desktop-solution.png)
 
 # Proyectos Intermediate
 
