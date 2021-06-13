@@ -2,7 +2,7 @@
 
 Pequeño fragmentos de HMTL, CSS, JS y la implementación de frameworks y librerías:
 
-# Tabla de contenido
+## Tabla de contenido
 
 - [Proyectos Newbie](#proyectos-newbie)
   - [Stats preview card component.](#stats-preview-card-component)
@@ -31,91 +31,90 @@ Pequeño fragmentos de HMTL, CSS, JS y la implementación de frameworks y librer
 
 Los proyectos pertenecen a [Frontend mentor](https://www.frontendmentor.io/).
 
-# Proyectos Newbie
+## Proyectos Newbie
 
-## Stats preview card component 
+### Stats preview card component 
 [Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/stats-preview-card-component-main)
 
 ![Desktop](./stats-preview-card-component-main/solution-capture/Mooenz-desktop-solution.png)
 
-## Article preview component 
 [Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/article-preview-component-master)
 ![Desktop](./article-preview-component-master/solution-capture/mooenz-desktop-solution.png)
 
-## Base apparel coming soon 
+### Base apparel coming soon 
 [Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/base-apparel-coming-soon-master)
 ![Desktop](./base-apparel-coming-soon-master/solution-capture/mooenz-desktop-normal-solution.png)
 
-## Intro component with component 
+### Intro component with component 
 [Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/intro-component-with-signup-form-master)
 ![Desktop](./intro-component-with-signup-form-master/solution-capture/mooenz-desktop-solution.png)
 
-## Faq accordin card. 
+### Faq accordin card. 
 [Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/faq-accordion-card-main)
 ![Desktop](./faq-accordion-card-main/solution-capture/mooenz-desktop-solution.png)
 
-## Ping single column coming soon page 
+### Ping single column coming soon page 
 [Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/ping-coming-soon-page-master)
 ![Desktop](./ping-coming-soon-page-master/solution-capture/mooenz-desktop-solution.png)
 
-# Proyectos Junior
+## Proyectos Junior
 
-## Testimonials grid section 
+### Testimonials grid section 
 [Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/testimonials-grid-section-main)
 ![Desktop](./testimonials-grid-section-main/solution-capture/mooenz-desktop-solution.png)
 
-## Sunnyside agency landing page
+### Sunnyside agency landing page
 [Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/sunnyside-agency-landing-page-main)
 ![Desktop](./sunnyside-agency-landing-page-main/solution-capture/mooenz-desktop-solution.png)
 
-## Interactive pricing component
+### Interactive pricing component
 [Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/interactive-pricing-component-main)
 ![Desktop](./interactive-pricing-component-main/solution-capture/mooenz-desktop-solution.png)
 
-## Fylo data storage component 
+### Fylo data storage component 
 [Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/fylo-data-storage-component-master)
 ![Desktop](./fylo-data-storage-component-master/solution-capture/mooenz-desktop-solution.png)
 
-## Social media dashboard with theme switcher 
+### Social media dashboard with theme switcher 
 [Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/social-media-dashboard-with-theme-switcher-master)
 ![Desktop](./social-media-dashboard-with-theme-switcher-master/solution-capture/mooenz-desktop-solution.png)
 
-## Crowdfunding product page. 
+### Crowdfunding product page. 
 [Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/crowdfunding-product-page-main)
 ![Desktop](./crowdfunding-product-page-main/solution-capture/mooenz-desktop-solution.png)
 
-# Proyectos Intermediate
+## Proyectos Intermediate
 
-## Easybank landing page 
+### Easybank landing page 
 [Look at code here]()
 ![Desktop](.//solution-capture/mooenz-desktop-solution.png)
 
-## Launch countdown timer 
+### Launch countdown timer 
 [Look at code here]()
 ![Desktop](.//solution-capture/mooenz-desktop-solution.png)
 
-## Calculator app 
+### Calculator app 
 [Look at code here]()
 ![Desktop](.//solution-capture/mooenz-desktop-solution.png)
 
-## To Do app
+### To Do app
 [Look at code here]()
 ![Desktop](.//solution-capture/mooenz-desktop-solution.png)
 
-## Job listings with filtering 
+### Job listings with filtering 
 [Look at code here]()
 ![Desktop](.//solution-capture/mooenz-desktop-solution.png)
 
-## IP Address Tracker
+### IP Address Tracker
 [Look at code here]()
 ![Desktop](.//solution-capture/mooenz-desktop-solution.png)
 
-# Proyectos Advanced
+## Proyectos Advanced
 
-## Rock, Paper, Scissors game
+### Rock, Paper, Scissors game
 [Look at code here]()
 ![Desktop](.//solution-capture/mooenz-desktop-solution.png)
 
-## REST Countries API with color theme switcher 
+### REST Countries API with color theme switcher 
 [Look at code here]()
 ![Desktop](.//solution-capture/mooenz-desktop-solution.png)
