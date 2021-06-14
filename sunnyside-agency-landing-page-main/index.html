@@ -1,68 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="./css/images/favicon-32x32.png">
+    <title>Sunnyside agency landing page - Mooenz</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+  </head>
+  <body>
+    <nav class="nav">
+      <img src="./css/images/logo.svg" alt="logo">
+      <ul class="nav-links">
+        <li><a href=""></a>About</li>
+        <li><a href=""></a>Services</li>
+        <li><a href=""></a>Projects</li>
+        <li><button>Contact</button></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>We are creatives</h1>
+    </header>
+    <main>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
+      <section>
+        <div>
+          <h2>Trasform your brand</h2>
+          <p>We are a full-service creative agency specializing in helping brands grow fast. 
+            Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <p>Learn more</p>
+        </div>
+        <div>
+          <img src="./css/images/desktop/image-transform.jpg" alt="transform your brand" />
+        </div>
+      </section>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  About
-  Services
-  Projects
-  Contact
+      <section>
+        <div>
+          <img src="./css/images/desktop/image-stand-out.jpg" alt="">
+        </div>
+        <div>
+          <h2>Stand out to the right audience</h2>
+          <p>    Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+          <p>Learn more</p>
+        </div>
+      </section>
 
-  We are creatives
+      <section>
+        <div>
+          <h2>Graphic design</h2>
+          <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </div>
+        <div>         
+          <h2>Photography</h2>
+          <p>    Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+      </section>
 
-  Transform your brand
+      <section class="container-gallery">
+        <h2>Client testimonials</h2>
+        <article class="card">
+          <img src="./css/images/image-emily.jpg" alt="emily photo">
+          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <h2>Emily R.</h2>
+          <p>Marketing Director</p>
+        </article>
+        <article class="card">
+          <img src="./css/images/image-thomas.jpg" alt="thomas photo">
+          <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <h2>Thomas S.</h2>
+          <p>Chief Operating Officer</p>
+        </article>
+        <article class="card">
+          <img src="./css/images/image-jennie.jpg" alt="jennie photo">
+          <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <h2>Jennie F.</h2>
+          <p>Business Owner</p>
+        </article>
+      </section>
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+      <section class="container-carrusel">
+        <img src="./css/images/desktop/image-gallery-milkbottles.jpg" alt="milkbottles" />
+        <img src="./css/images/desktop/image-gallery-orange.jpg" alt="" />
+        <img src="./css/images/desktop/image-gallery-cone.jpg" alt="" />
+        <img src="./css/images/desktop/image-gallery-sugarcubes.jpg" alt="" />
+      </section>
 
-  Learn more
-
-  Stand out to the right audience
-
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      <footer class="footer">
+        <h2>sunnyside</h2>
+        <nav class="footer-nav">
+          <ul class="footer-nav-links">
+            <li><a href=""></a>About</li>
+            <li><a href=""></a>Services</li>
+            <li><a href=""></a>Projects</li>
+            <li><a href=""></a>Contact</li>
+          </ul>
+        </nav>
+        <div class="footer-social-media">
+          <a href=""><img src="./css/images/icon-facebook.svg" alt="icon facebook"></a>
+          <a href=""><img src="./css/images/icon-instagram.svg" alt="icon instagram"></a>
+          <a href=""><img src="./css/images/icon-twitter.svg" alt="icon twitter"></a>
+          <a href=""><img src="./css/images/icon-pinterest.svg" alt="icon pinterest"></a>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
