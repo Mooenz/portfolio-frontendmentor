@@ -41,12 +41,6 @@ html {
   /*TOGGLE*/
 }
 
-@media screen and (min-width: 768px) {
-  .container-header {
-    background-image: url(./images/desktop/image-header.jpg);
-  }
-}
-
 .container-header-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -146,6 +140,42 @@ html {
   bottom: 50%;
 }
 
+@media screen and (min-width: 768px) {
+  .container-header {
+    background-image: url(./images/desktop/image-header.jpg);
+    padding: 3.5rem;
+  }
+  .container-header-nav {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container-header-nav-burger {
+    display: none;
+  }
+  .container-header-nav-links {
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: transparent;
+    margin: 0;
+    color: var(--White);
+  }
+  .container-header-nav-links li button {
+    background-color: var(--White);
+  }
+  .container-header-nav-links::after {
+    display: none;
+  }
+}
+
 .container-article .article {
   padding: 3.5rem 2rem;
   text-align: center;
@@ -176,8 +206,9 @@ html {
   color: var(--Very-dark-desaturated-blue);
 }
 
-.container-article .img img {
+.container-article img {
   width: 100%;
+  height: 100%;
 }
 
 .container .one {
@@ -195,7 +226,6 @@ html {
   color: var(--Dark-desaturated-cyan);
   background-image: url(./images/mobile/image-graphic-design.jpg);
   background-size: cover;
-  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -213,11 +243,10 @@ html {
 }
 
 .container-article .four {
-  height: 90vh;
+  height: 100vh;
   color: var(--Dark-blue);
   background-image: url(./images/mobile/image-photography.jpg);
   background-size: cover;
-  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -230,15 +259,9 @@ html {
           justify-content: flex-end;
 }
 
-.container-article .four .article-title {
-  margin-top: 0;
-}
-
 .container-article .four .article-text {
   color: var(--Dark-blue);
-  margin-top: 0;
   margin-bottom: 2rem;
-  font-size: 1.6rem;
   line-height: 2.5rem;
 }
 
@@ -310,7 +333,56 @@ html {
 
 .container-carrusel-img img {
   width: 50%;
-  height: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .container-article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container-article .article {
+    max-width: 50%;
+    text-align: start;
+  }
+  .container-article .tree {
+    text-align: center;
+  }
+  .container-article .four {
+    text-align: center;
+  }
+  .container-article .four .article-text {
+    margin: 1.8rem 0 5.5rem;
+  }
+  .container .one {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container-testimonials {
+    padding: 10rem 5rem;
+  }
+  .container-testimonials-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container-testimonials-cards .card {
+    margin: 5rem 0.5rem;
+  }
+  .container-carrusel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .footer {
@@ -332,7 +404,6 @@ html {
 .footer-title {
   font-family: var(--Barlow);
   font-size: 2.5rem;
-  margin: 2.5rem 0;
 }
 
 .footer-nav {
@@ -364,5 +435,15 @@ html {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-nav {
+    width: 50%;
+  }
+  .footer-social-media {
+    width: 20%;
+    margin-top: 7rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
