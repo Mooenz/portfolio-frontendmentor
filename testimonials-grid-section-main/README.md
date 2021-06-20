@@ -29,11 +29,11 @@ Users should be able to:
 
 #### Mobile
 
-![Mobile](./solution-capture/Mooenz-mobile-solution.png)
+![Mobile](./solution-capture/mooenz-mobile-solution.png)
 
 #### Desktop
 
-![Desktop](./solution-capture/Mooenz-desktop-solution.png)
+![Desktop](./solution-capture/mooenz-desktop-solution.png)
 
 
 ### Links
