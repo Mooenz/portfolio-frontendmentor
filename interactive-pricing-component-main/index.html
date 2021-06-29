@@ -1,28 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./css/images/favicon-32x32.png">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Interactive pricing component - Mooenz</title>
   </head>
   <body>
-
-    Simple, traffic-based pricing
-    Sign-up for our 30-day trial. No credit card required. 
-
-    Pageviews
-    $ /month
-
-    Monthly Billing
-    Yearly Billing 25% discount
-
-    Unlimited websites
-    100% data ownership
-    Email reports
-
-    Start my trial
-
+    <div class="container">
+      <section class="container-header">
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. No credit card required.</p>
+      </section>
+  
+      <section class="container-pricing">
+        <div class="pricing">
+          <h2><span id="span-pageviews" >100K</span> Pageviews</h2>
+          <p><strong>$<span id="span-pricing">16.00</span></strong> /month</p>
+          <input type="range" name="pricing" id="" min="10" max="50" value="0">
+        </div>
+    
+        <div>
+          Monthly Billing
+          Yearly Billing 25% discount
+        </div> 
+      </section>
+  
+      <footer class="container-footer">
+        <div class="benefits">
+          <p>Unlimited websites</p>
+          <p>100% data ownership</p>
+          <p>Email reports</p>
+        </div>
+        <div class="button">
+          <button>Start my trial</button>
+        </div>      
+      </footer>
+    </div>
+    <script src="index.js"></script>
   </body>
 </html>
