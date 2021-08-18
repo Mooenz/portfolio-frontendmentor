@@ -68,13 +68,13 @@ Los proyectos pertenecen a [Frontend mentor](https://www.frontendmentor.io/).
 [Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/sunnyside-agency-landing-page-main)
 ![Desktop](./sunnyside-agency-landing-page-main/solution-capture/mooenz-desktop-solution.png)
 
-### Interactive pricing component
-[Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/interactive-pricing-component-main)
-![Desktop](./interactive-pricing-component-main/solution-capture/mooenz-desktop-solution.png)
+### Blogr landing page 
+[Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/blogr-landing-page)
+![Desktop](./blogr-landing-page/solution-capture/mooenz-desktop-solution.png)
 
-### Fylo data storage component 
-[Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/fylo-data-storage-component-master)
-![Desktop](./fylo-data-storage-component-master/solution-capture/mooenz-desktop-solution.png)
+### Tip calculator app
+[Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/tip-calculator-app)
+![Desktop](./tip-calculator-app/mooenz-desktop-solution.png)
 
 ### Social media dashboard with theme switcher 
 [Look at code here](https://github.com/Mooenz/Frontend-portafolio/tree/main/social-media-dashboard-with-theme-switcher-master)
