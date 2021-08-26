@@ -68,7 +68,7 @@ Users should be able to:
 
 ### Continued development
 
-I want to learn Sass and grid layout).
+I want to learn Sass and grid layout.
 
 ## Author
 
