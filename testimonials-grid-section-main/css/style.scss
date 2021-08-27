@@ -1,16 +1,12 @@
-:root {
-  --Moderate-violet: hsl(263, 55%, 52%);
-  --Moderate-violet-light: hsl(263, 100%, 70%);
-  --Very-dark-grayish-blue: hsl(217, 19%, 35%);
-  --Very-dark-grayish-blue-50: hsl(217, 19%, 35%, 50%);
-  --Very-dark-grayish-blue-70: hsl(217, 19%, 35%, 70%);
-  --Very-dark-blackish-blue: hsl(219, 29%, 14%);
-  --White: hsl(0, 0%, 100%);
-  --White-50: hsl(0, 0%, 100%,50%);
-  --White-70: hsl(0, 0%, 100%, 70%);
-  --Light-gray: hsl(0, 0%, 81%);
-  --Light-grayish-blue: rgb(236, 242, 248);
-}
+$Moderate-violet : #7541c8;
+$Moderate-violet-light: #a166ff;
+$Very-dark-grayish-blue: #48556a;
+$Very-dark-grayish-blue-50: hsla(217, 19%, 35%, 0.5);
+$Very-dark-grayish-blue-70: hsla(217, 19%, 35%, 0.7);
+$Very-dark-blackish-blue: #19212e;
+$White: #ffffff;
+$Light-gray: #cfcfcf;
+$Light-grayish-blue: hsl(210, 46%, 95%);
 
 $breakpoints: (
   small: 540px,
@@ -27,216 +23,148 @@ $breakpoints: (
 html {
   box-sizing: border-box;
   font-family: 'Barlow Semi Condensed', sans-serif;
-  font-size: 62.5%;
+  font-size: 16px;
+  background-color: $Light-grayish-blue;
+  height: 100vh;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-.container {
-  padding: 5rem 2rem;
-  background-color: var(--Light-grayish-blue);
+body {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  
-  @include media-query(large) {
-    height: 100vh;
-    flex-direction: row;
-    justify-content: center;
+  height: 100%;
+}
+
+.container {
+  padding: 4em 15px;
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(1, 100%);
+  gap: 15px;
+  width: 100%;
+  max-width: 90rem;
+}
+
+.card {
+  padding: 25px;
+  border-radius: 10px;
+
+  &__user {
+    align-items: center;
+    display: flex;
   }
 
-  &-testimonial-group-left {
-    @include media-query(medium) {
-      display: flex;
-      .card {
-        max-width: 100%;
-
-        &-one {
-          margin-right: 2rem;
-        }
-  
-        &-two {
-          margin-right: 2rem;
-          margin-bottom: 0;
-        }
-  
-        &-tree {
-         margin-top: 0;
-        }
-  
-        &-four {
-          margin-bottom: 0;
-        }
-      }
-    }
-    
-    @include media-query(large) {
-      display: flex;
-      flex-direction: column;      
-      max-height: 56rem;
-
-      .card {
-        &-one {
-          margin-bottom: 0;
-          max-width: 60rem;
-        }
-        
-        &-two {
-          margin: 0;
-          max-width: 28.5rem;
-        }
-  
-        &-tree {          
-          max-width: 28.5rem;
-          margin: 2rem 2rem 0 0;
-        }
-  
-        &-four {
-          max-width: 60rem;
-        }
-
-      }
-    }
-
-    &-up {
-      color: var(--White);
-
-      @include media-query(large) {
-        display: flex;
-      }
-    }
-    
-    &-down {
-      @include media-query(large) {
-        display: flex;
-      }
-    }
+  &__img {
+    border-radius: 50em;
+    height: 32px;
+    margin-right: 1.2em;
   }
-  
-  &-testimonial-group-right {
-    @include media-query(medium) {
-      .card {
-        &-five {
-          margin-top: 2rem;
-          max-width: 100%;
-        }        
-      }
-    }
 
-    @include media-query(large) {
-      
-      display: flex;
-      justify-content: center;
-      .card {
-        &-five {
-          margin-top: 0;
-          margin-left: 2rem;
-          max-width: 25rem;
-        }        
-      }
-    }
+  &__name {
+    margin: 0 0 3px 0;
+    font-size: 0.85rem;
+  }
+
+  &__check {
+    margin: 0;
+    font-size: 0.7rem;
+  }
+
+  &__testimony-one {
+    font-size: 1.24rem;
+    font-weight: bolder;
+  }
+
+  &__testimony-two {
+    font-size: 0.813rem;
+    line-height: 18px;
+    margin: 0;
   }
 }
 
-.card {  
-  border-radius: 1rem;
-  padding: 3rem;
-  margin: 2rem 0;
-  max-width: 48.5rem;
+.card-one {
+  background-color: $Moderate-violet;
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 1.57em;
+  color: $White;
 
-  &-user {
-    display: flex;
-    align-items: center;
+  .card__img {
+    border: 2px solid $Moderate-violet-light;
+  }
+  .card__testimony-two, .card__check {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
 
-    .card-user-img {
-      border-radius: 50%;
-      height: 3rem;
-      margin-right: 1.3rem;
-    }
+.card-two {
+  background-color: $Very-dark-grayish-blue;
+  color: $White;
 
-    .card-user-name {
-      font-size: 1.2rem;
-      margin: 0;
-      margin-bottom: 0.3rem;
-    }
+  .card__testimony-two, .card__check  {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
 
-    .card-user-check {
-      margin: 0;
-      font-weight: 500;
-      color:var(--White-50);
-    }
+.card-four {
+  background-color: $Very-dark-blackish-blue;
+  color: $White;
 
-    &-testimony-one {
-      font-size: 2rem;
-      font-weight: 600;
-    }
+  .card__testimony-two, .card__check  {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
 
-    &-testimony-two {
-      font-size: 1.2rem;
-      font-weight: 500;
-      line-height: 1.8rem;
-      color: var(--White-70);
-      margin-bottom: 0;
-    }
+.card-five, .card-three  {
+  background-color: $White;
+  color: $Very-dark-blackish-blue;
+
+  .card__testimony-two, .card__check  {
+    color: rgba(25, 33, 46, 0.5);
+  }
+}
+
+@include media-query(small) {
+  .container {
+    grid-template-columns: repeat(2,50%);
+    grid-template-areas: 
+    "one four"
+    "one four"
+    "two three"
+    "five five";
   }
 
-  &-one {
-    background-color: var(--Moderate-violet);
-    background-image: url(./images/bg-pattern-quotation.svg);
-    background-repeat: no-repeat;
-    background-position: top 0 right 2rem;
-    margin-top: 0;
-    box-shadow: 0px 7px 10px 1px rgba(0, 0, 0, 0.2);
-
-    .card-user-img {
-      border: 2px solid var(--Moderate-violet-light);
-    }
+  .card-one {
+    grid-area: one;
   }
 
-  &-two {
-    background-color: var(--Very-dark-grayish-blue);
-    box-shadow: 0px 7px 10px 1px rgba(0, 0, 0, 0.2);
+  .card-two {
+    grid-area: two;
   }
 
-  &-tree {
-    background-color: var(--White);
-    color: var(--Very-dark-grayish-blue);
-    box-shadow: 0px 7px 10px 1px rgba(0, 0, 0, 0.2);
-
-    .card-user-check {
-      color: var(--Very-dark-grayish-blue-50);
-    }
-
-    .card-user-testimony-two {
-      color: var(--Very-dark-grayish-blue-70);
-    }    
+  .card-three {
+    justify-self: start;
+    grid-area: three;
   }
-  
-  &-four {
-    background-color: var(--Very-dark-blackish-blue);
-    color: var(--White);
-    box-shadow: 0px 7px 10px 1px rgba(0, 0, 0, 0.2);
 
-    .card-user-img {
-      border: 2px solid var(--Moderate-violet);
-    }
+  .card-four {
+    grid-area: four;
   }
-  
-  &-five {
-    background-color: var(--White);
-    color: var(--Very-dark-grayish-blue);
-    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.2);
-    margin: 0;
 
-    .card-user-check {
-      color: var(--Very-dark-grayish-blue-50);
-    }
-
-    .card-user-testimony-two {
-      color: var(--Very-dark-grayish-blue-70);
-    }
+  .card-five {
+    grid-area: five;
   }
-  
+}
+
+@include media-query(large) {
+  .container {
+    grid-template-columns: repeat(4,25%);
+    grid-template-areas: 
+    " one one two five "
+    " three four four five ";
+  }
 }
