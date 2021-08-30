@@ -48,7 +48,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Stats preview card component challenge.](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT/hub/html-css-js-flexbox-mobile-first-and-responsive-design-8hpxxmqUl)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/Frontend-portafolio/article-preview-component-master/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-portafolio/article-preview-component-master/)
 
 ## My process
 

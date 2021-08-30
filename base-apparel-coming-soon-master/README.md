@@ -48,7 +48,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Base Apparel coming soon page.](https://www.frontendmentor.io/solutions/html-css-flexbox-and-mobile-first-ZW0uZdcwI)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/Frontend-portafolio/base-apparel-coming-soon-master/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-portafolio/base-apparel-coming-soon-master/)
 
 ## My process
 
