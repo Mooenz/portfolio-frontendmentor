@@ -1,41 +1,122 @@
-@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 body {
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   font-size: 16px;
 }
 
 .header {
   background: linear-gradient(135deg, #ff8f70 20%, #ff3d54 70%), url(./images/bg-pattern-intro.svg) no-repeat;
-  background-position: 37% 30%;
   background-blend-mode: hue;
+  background-position: 37% 30%;
   background-size: 1200px;
-  height: 75vh;
   border-end-start-radius: 100px;
-  padding: 50px 30px;
+  height: 75vh;
   margin-bottom: 100px;
+  padding: 50px 30px;
 }
 
 .header__states {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   position: relative;
 }
 
 .header__states .hamburger {
-  width: 32px;
   height: 20px;
+  width: 32px;
+}
+
+.header__states .hamburger--size {
+  height: 32px;
+  width: 32px;
 }
 
 .header__nav {
+  background-color: white;
+  color: #1f3f5b;
+  font-size: 1.1em;
+  font-weight: 700;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+  left: 0;
   position: absolute;
-  display: none;
+  padding: 20px;
+  text-align: center;
+  top: 70px;
+  right: 0;
+}
+
+.header__nav ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 20px;
+}
+
+.header__nav ul li {
+  margin-bottom: 20px;
+}
+
+.header__nav ul li span {
+  margin-left: 8px;
+}
+
+.header__nav ul li:last-child {
+  margin-bottom: 0;
+}
+
+.header .sub-list {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.header__buttons {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 25px;
+}
+
+.header__buttons .btn-sign,
+.header__buttons .btn-login {
+  border-radius: 40px;
+  border: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 15px 40px;
+}
+
+.header__buttons .btn-login {
+  border: none;
+  background-color: transparent;
+  color: #1f3f5b;
+  margin: 10px 0;
+}
+
+.header__buttons .btn-sign {
+  background: -webkit-gradient(linear, left top, right top, from(#ff8f70), to(#ff3d54));
+  background: linear-gradient(90deg, #ff8f70 0%, #ff3d54 100%);
+  color: white;
 }
 
 .header__info {
@@ -64,24 +145,35 @@ body {
   color: white;
 }
 
-.header .button__start, .header .button__learn {
+.header .btn-start,
+.header .btn-learn {
   border: none;
   border-radius: 40px;
   padding: 15px 20px;
   font-weight: bold;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
-.header .button__start {
+.header .btn-start {
   background-color: white;
   color: #ff525d;
 }
 
-.header .button__learn {
+.header .btn-start:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.header .btn-learn {
   border: 1px solid white;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0);
   color: white;
   margin-left: 10px;
+}
+
+.header .btn-learn:hover {
+  background-color: white;
+  color: #ff525d;
 }
 
 .sections__one .img {
@@ -219,7 +311,11 @@ body {
   text-decoration: none;
 }
 
+.footer .footer__box a:hover {
+  text-decoration: underline;
+}
+
 .hiden {
-  display: none !important;
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

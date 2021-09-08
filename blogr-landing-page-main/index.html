@@ -16,13 +16,24 @@
   <body>
     <header class="header">
       <div class="header__states">
-        <img class="header__img" src="./css/images/logo.svg" width="100px" alt="logo" />
-        <img class="hamburger" src="./css/images/icon-hamburger.svg" alt="icon hamburger" />
+        <img
+        src="./css/images/logo.svg"
+        width="100px"
+        alt="logo"
+        />
+        <img
+          class="hamburger"
+          src="./css/images/icon-hamburger.svg"
+          alt="icon hamburger"
+          onclick="prueba()"
+        />
         <nav class="header__nav">
           <ul>
             <li>
-              Product
-              <ul>
+              Product<span
+                ><img src="./css/images/icon-arrow-dark.svg" alt=""
+              /></span>
+              <ul class="sub-list hiden">
                 <li>Overview</li>
                 <li>Pricing</li>
                 <li>Marketplace</li>
@@ -31,8 +42,10 @@
               </ul>
             </li>
             <li>
-              Company
-              <ul>
+              Company<span
+                ><img src="./css/images/icon-arrow-dark.svg" alt=""
+              /></span>
+              <ul class="sub-list hiden">
                 <li>About</li>
                 <li>Team</li>
                 <li>Blog</li>
@@ -40,8 +53,10 @@
               </ul>
             </li>
             <li>
-              Connect
-              <ul>
+              Connect<span
+                ><img src="./css/images/icon-arrow-dark.svg" alt=""
+              /></span>
+              <ul class="sub-list">
                 <li>Contact</li>
                 <li>Newsletter</li>
                 <li>LinkedIn</li>
@@ -56,10 +71,12 @@
       </div>
       <div class="header__info">
         <h1 class="header__info-title">A modern publishing platform</h1>
-        <p class="header__info-p">Grow your audience and build your online brand</p>
+        <p class="header__info-p">
+          Grow your audience and build your online brand
+        </p>
         <div>
-          <button class="button__start">Start for Free</button>
-          <button class="button__learn">Learn More</button>
+          <button class="btn-start">Start for Free</button>
+          <button class="btn-learn">Learn More</button>
         </div>
       </div>
     </header>
@@ -149,5 +166,6 @@
         <a href="#footer">LinkedIn</a>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
