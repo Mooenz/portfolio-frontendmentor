@@ -58,7 +58,7 @@ body {
   &__nav {
     background-color: $white;
     color: $very-dark-blue;
-    // display: none;
+    display: none;
     font-size: 1.1em;
     font-weight: 700;
     border-radius: 5px;
@@ -74,6 +74,7 @@ body {
       list-style: none;
       padding-left: 0px;
       margin-top: 20px;
+
       li {
         margin-bottom: 20px;
         span {
@@ -90,6 +91,7 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     padding: 25px;
+    display: none;
   }
 
   &__buttons {
@@ -295,6 +297,16 @@ body {
   }
 }
 
-.hiden {
-  display: none;
+
+.show {
+  display: initial;
+}
+
+.list--styles {
+  .arrow {
+    transform: rotate(180deg);
+  }  
+  .sub-list {
+    display: block;
+  }
 }
