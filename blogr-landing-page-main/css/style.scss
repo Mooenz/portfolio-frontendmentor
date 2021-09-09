@@ -23,6 +23,11 @@ body {
   font-size: 16px;
 }
 
+.container--max-wigth {
+  max-width: 1200px;
+  margin: auto;
+}
+
 .header {
   background: linear-gradient(
       135deg,
@@ -37,6 +42,11 @@ body {
   height: 75vh;
   margin-bottom: 100px;
   padding: 50px 30px;
+
+  @media (min-width:900px) {
+    background-position: 23% 50%;
+    background-size: initial;
+  }
 
   &__states {
     align-items: center;
@@ -53,6 +63,15 @@ body {
       height: 32px;
       width: 32px;
     }
+
+    @media (min-width:900px) {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      width: 100%;
+      .hamburger {
+        display: none;
+      }
+    }
   }
 
   &__nav {
@@ -63,12 +82,12 @@ body {
     font-weight: 700;
     border-radius: 5px;
     box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
-    left: 0;
     position: absolute;
     padding: 20px;
     text-align: center;
     top: 70px;
     right: 0;
+    left: 0;
 
     ul {
       list-style: none;
@@ -82,6 +101,59 @@ body {
         }
         &:last-child {
           margin-bottom: 0;
+        }
+      }
+    }
+
+    @media (min-width:400px) {
+      left: initial;
+      width: 287px;
+    }
+
+    @media (min-width:900px) {
+      align-items: center;
+      background-color: transparent;
+      box-shadow: none;
+      color: $white;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 80px;
+      padding: 0;
+      position: initial;
+      width: auto;
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        position: relative;
+
+        .list {
+          margin: 0;
+
+          &:hover {
+            text-decoration: underline;
+          }
+
+          .sub-list {
+            background: $white;
+            color: $very-dark-blue;
+            text-align: start;
+            position: absolute;
+            top: 40px;
+            font-size: 0.9em;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 400;
+            padding: 30px 25px;          
+
+            & li:hover {
+            font-weight: 700;
+            }
+          }
+
+          span {
+            margin-right: 30px;
+          }
         }
       }
     }
@@ -127,6 +199,27 @@ body {
       );
       color: $white;
     }
+
+    @media (min-width:900px) {
+      border: none;
+      flex-direction: row;
+      margin:0;
+
+      .btn-login {
+        color: $white;
+        margin: 0;
+      }
+
+      .btn-sign {
+        background: $white;
+        color: $light-red-text;
+
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.2);
+          color: $white;
+        }
+      }
+    }
   }
 
   &__info {
@@ -145,6 +238,12 @@ body {
       margin: 0 0 50px;
       font-size: 1.2em;
       color: $white;
+    }
+
+    @media (min-width:900px) {
+      &-title {
+        font-size: 4em;
+      }
     }
   }
 
@@ -268,33 +367,51 @@ body {
 }
 
 .footer {
-  align-items: center;
   background-color: $very-dark-black-blue;
   border-top-right-radius: 100px;
-  color: $white;
-  display: flex;
-  flex-direction: column;
-  font-size: 1rem;
-  padding: 70px 0;
-
-  .footer__img {
-    margin-bottom: 50px;
-  }
-
-  .footer__box {
+  
+  &__container {
     align-items: center;
     display: flex;
+    color: $white;
     flex-direction: column;
-    .title {
-      margin-top: 50px;
-    }
-    a {
-      color: $grayish-blue;
-      margin-top: 10px;
-      text-decoration: none;
+    font-size: 1rem;
+    padding: 70px 0;
 
-      &:hover {
-        text-decoration: underline;
+    .footer__img {
+      margin-bottom: 50px;
+    }
+  
+    .footer__box {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      .title {
+        margin-top: 50px;
+      }
+      a {
+        color: $grayish-blue;
+        margin-top: 10px;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    @media (min-width:900px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      
+      .footer__box {
+        text-align: start;
+        align-items: flex-start;
+
+        .title {
+          margin-top: 0px;
+        }
       }
     }
   }
@@ -311,4 +428,8 @@ body {
   .sub-list {
     display: block;
   }
+}
+
+.hidden {
+  display: none;
 }

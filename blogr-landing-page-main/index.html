@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="header__states">
+    <header class="header hidden">
+      <div class="header__states container--max-wigth">
         <img src="./css/images/logo.svg" width="100px" alt="logo" />
         <img
           class="hamburger"
@@ -24,57 +24,81 @@
           onclick="toggleHamburger()"
         />
         <nav class="header__nav">
-          <ul>
-            <li class="list">
-              Product<span
-                ><img
-                  src="./css/images/icon-arrow-dark.svg"
-                  alt="arrow"
-                  class="arrow"
-              /></span>
-              <ul class="sub-list">
-                <li>Overview</li>
-                <li>Pricing</li>
-                <li>Marketplace</li>
-                <li>Features</li>
-                <li>Integrations</li>
-              </ul>
-            </li>
-            <li class="list">
-              Company<span
-                ><img
-                  src="./css/images/icon-arrow-dark.svg"
-                  alt="arrow"
-                  class="arrow"
-              /></span>
-              <ul class="sub-list">
-                <li>About</li>
-                <li>Team</li>
-                <li>Blog</li>
-                <li>Careers</li>
-              </ul>
-            </li>
-            <li class="list">
-              Connect<span
-                ><img
-                  src="./css/images/icon-arrow-dark.svg"
-                  alt="arrow"
-                  class="arrow"
-              /></span>
-              <ul class="sub-list">
-                <li>Contact</li>
-                <li>Newsletter</li>
-                <li>LinkedIn</li>
-              </ul>
-            </li>
-            <div class="header__buttons">
-              <button class="btn-login">Login</button>
-              <button class="btn-sign">Sign Up</button>
-            </div>
-          </ul>
+          <div>
+            <ul>
+              <li class="list">
+                Product
+                <span>
+                  <picture>
+                    <source
+                      media="(min-width: 900px)"
+                      srcset="./css/images/icon-arrow-light.svg"
+                    />
+                    <img
+                      src="./css/images/icon-arrow-dark.svg"
+                      alt="arrow"
+                      class="arrow"
+                    />
+                  </picture>
+                </span>
+                <ul class="sub-list">
+                  <li>Overview</li>
+                  <li>Pricing</li>
+                  <li>Marketplace</li>
+                  <li>Features</li>
+                  <li>Integrations</li>
+                </ul>
+              </li>
+              <li class="list">
+                Company
+                <span>
+                  <picture>
+                    <source
+                      media="(min-width: 900px)"
+                      srcset="./css/images/icon-arrow-light.svg"
+                    />
+                    <img
+                      src="./css/images/icon-arrow-dark.svg"
+                      alt="arrow"
+                      class="arrow"
+                    /> </picture
+                ></span>
+                <ul class="sub-list">
+                  <li>About</li>
+                  <li>Team</li>
+                  <li>Blog</li>
+                  <li>Careers</li>
+                </ul>
+              </li>
+              <li class="list">
+                Connect
+                <span>
+                  <picture>
+                    <source
+                      media="(min-width: 900px)"
+                      srcset="./css/images/icon-arrow-light.svg"
+                    />
+                    <img
+                      src="./css/images/icon-arrow-dark.svg"
+                      alt="arrow"
+                      class="arrow"
+                    /> </picture
+                ></span>
+                <ul class="sub-list">
+                  <li>Contact</li>
+                  <li>Newsletter</li>
+                  <li>LinkedIn</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="header__buttons">
+            <button class="btn-login">Login</button>
+            <button class="btn-sign">Sign Up</button>
+          </div>
         </nav>
       </div>
-      <div class="header__info">
+      <div class="header__info container--max-wigth">
         <h1 class="header__info-title">A modern publishing platform</h1>
         <p class="header__info-p">
           Grow your audience and build your online brand
@@ -145,30 +169,32 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <img class="footer__img" src="./css/images/logo.svg" alt="loco" />
-      <div class="footer__box">
-        <h4 class="title">Product</h4>
-        <a href="#footer">Overview</a>
-        <a href="#footer">Pricing</a>
-        <a href="#footer">Marketplace</a>
-        <a href="#footer">Features</a>
-        <a href="#footer">Integrations</a>
-      </div>
-
-      <div class="footer__box">
-        <h4 class="title">Company</h4>
-        <a href="#footer">About</a>
-        <a href="#footer">Team</a>
-        <a href="#footer">Blog</a>
-        <a href="#footer">Careers</a>
-      </div>
-
-      <div class="footer__box">
-        <h4 class="title">Connect</h4>
-        <a href="#footer">Contact</a>
-        <a href="#footer">Newsletter</a>
-        <a href="#footer">LinkedIn</a>
+    <footer class="footer hidden">
+      <div class="footer__container container--max-wigth ">
+        <img class="footer__img" src="./css/images/logo.svg" alt="loco" />
+        <div class="footer__box">
+          <h4 class="title">Product</h4>
+          <a href="#footer">Overview</a>
+          <a href="#footer">Pricing</a>
+          <a href="#footer">Marketplace</a>
+          <a href="#footer">Features</a>
+          <a href="#footer">Integrations</a>
+        </div>
+  
+        <div class="footer__box">
+          <h4 class="title">Company</h4>
+          <a href="#footer">About</a>
+          <a href="#footer">Team</a>
+          <a href="#footer">Blog</a>
+          <a href="#footer">Careers</a>
+        </div>
+  
+        <div class="footer__box">
+          <h4 class="title">Connect</h4>
+          <a href="#footer">Contact</a>
+          <a href="#footer">Newsletter</a>
+          <a href="#footer">LinkedIn</a>
+        </div>
       </div>
     </footer>
     <script src="index.js"></script>
