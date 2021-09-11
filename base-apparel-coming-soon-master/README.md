@@ -71,7 +71,7 @@ This regular expressions is stack overflow.
 
 ## Author
 
-- Website - [Mooenz cv](https://mooenz.github.io/Curriculum-Vitae/)
+- Website - [Mooenz cv](https://mooenz.github.io/curriculum-vitae/)
 - Frontend Mentor - [@Mooenz](https://www.frontendmentor.io/profile/Mooenz)
 - Twitter - [@MooenzDev](https://www.twitter.com/MooenzDev)
 

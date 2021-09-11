@@ -69,8 +69,8 @@ Los proyectos pertenecen a [frontend mentor](https://www.frontendmentor.io/).
 ![Desktop](./sunnyside-agency-landing-page-main/solution-capture/mooenz-desktop-solution.png)
 
 ### Blogr landing page 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/blogr-landing-page)
-![Desktop](./blogr-landing-page/solution-capture/mooenz-desktop-solution.png)
+[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/blogr-landing-page-main)
+![Desktop](./blogr-landing-page-main/solution-capture/mooenz-desktop-solution.png)
 
 ### Tip calculator app
 [Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/tip-calculator-app)
