@@ -44,7 +44,7 @@ body {
   margin-bottom: 100px;
   padding: 50px 30px;
 
-  @media (min-width:900px) {
+  @media (min-width: 900px) {
     background-position: 23% 50%;
     background-size: initial;
   }
@@ -65,7 +65,7 @@ body {
       width: 32px;
     }
 
-    @media (min-width:900px) {
+    @media (min-width: 900px) {
       display: grid;
       grid-template-columns: 100px 1fr;
       width: 100%;
@@ -106,12 +106,12 @@ body {
       }
     }
 
-    @media (min-width:400px) {
+    @media (min-width: 400px) {
       left: initial;
       width: 287px;
     }
 
-    @media (min-width:900px) {
+    @media (min-width: 900px) {
       align-items: center;
       background-color: transparent;
       box-shadow: none;
@@ -143,12 +143,12 @@ body {
             position: absolute;
             top: 40px;
             font-size: 0.9em;
-            font-family: 'Ubuntu', sans-serif;
+            font-family: "Ubuntu", sans-serif;
             font-weight: 400;
-            padding: 30px 25px;          
+            padding: 30px 25px;
 
             & li:hover {
-            font-weight: 700;
+              font-weight: 700;
             }
           }
 
@@ -201,10 +201,10 @@ body {
       color: $white;
     }
 
-    @media (min-width:900px) {
+    @media (min-width: 900px) {
       border: none;
       flex-direction: row;
-      margin:0;
+      margin: 0;
 
       .btn-login {
         color: $white;
@@ -241,7 +241,7 @@ body {
       color: $white;
     }
 
-    @media (min-width:900px) {
+    @media (min-width: 900px) {
       &-title {
         font-size: 4em;
       }
@@ -284,14 +284,14 @@ body {
   &__one {
     margin-top: 50px;
     .img {
-      background-image: url('./images/illustration-editor-mobile.svg');
+      background-image: url("./images/illustration-editor-mobile.svg");
       background-repeat: no-repeat;
       background-position: center;
       height: 330px;
     }
 
-    @media (min-width:900px) {
-      background: url('./images/illustration-editor-desktop.svg') no-repeat;
+    @media (min-width: 900px) {
+      background: url("./images/illustration-editor-desktop.svg") no-repeat;
       background-position: right -250px center;
       margin: 0;
       padding: 130px 0;
@@ -301,23 +301,20 @@ body {
         font-size: 3em;
         margin-bottom: 80px;
       }
-      
+
       .img {
         display: none;
       }
 
       .container-one {
-         display: flex;
-         flex-direction: column;
-         align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
 
         .sections__paragraph {
-          width: 43%;  
+          width: 43%;
         }
-       }
-
-
-
+      }
     }
   }
 
@@ -328,7 +325,7 @@ body {
     background-position: center -270px, center center;
     background-repeat: no-repeat, repeat;
     border-top-right-radius: 100px;
-    border-bottom-left-radius: 100px;;
+    border-bottom-left-radius: 100px;
     margin: 265px 0 0;
     padding: 0 0 100px;
     color: $white;
@@ -357,7 +354,7 @@ body {
       margin-bottom: 0;
     }
 
-    @media (min-width:900px) {
+    @media (min-width: 900px) {
       background-position: -212px -500px, center center;
       background-size: 1000px, contain;
       margin: 50px 0 0;
@@ -365,7 +362,7 @@ body {
       .sections__container {
         display: flex;
         justify-content: flex-end;
-        
+
         .sections__img {
           width: 50%;
           height: 100%;
@@ -398,7 +395,7 @@ body {
   &__three {
     margin: 60px 0 100px;
     .img {
-      background-image: url('./images/illustration-laptop-mobile.svg');
+      background-image: url("./images/illustration-laptop-mobile.svg");
       background-position: center;
       background-repeat: no-repeat;
       height: 330px;
@@ -406,9 +403,9 @@ body {
       width: 100%;
     }
 
-    @media (min-width:900px) {
+    @media (min-width: 900px) {
       margin: 100px 0;
-      background: url('./images/illustration-laptop-desktop.svg') no-repeat;
+      background: url("./images/illustration-laptop-desktop.svg") no-repeat;
       background-position: left -275px center;
       height: 800px;
 
@@ -431,7 +428,7 @@ body {
       }
     }
   }
-  
+
   &__title {
     color: $very-dark-blue;
     font-size: 28px;
@@ -456,7 +453,7 @@ body {
     font-size: 16px;
   }
 
-  @media (min-width:900px) {
+  @media (min-width: 900px) {
     &__title {
       text-align: start;
     }
@@ -474,7 +471,7 @@ body {
 .footer {
   background-color: $very-dark-black-blue;
   border-top-right-radius: 100px;
-  
+
   &__container {
     align-items: center;
     display: flex;
@@ -486,7 +483,7 @@ body {
     .footer__img {
       margin-bottom: 50px;
     }
-  
+
     .footer__box {
       align-items: center;
       display: flex;
@@ -498,18 +495,18 @@ body {
         color: $grayish-blue;
         margin-top: 10px;
         text-decoration: none;
-  
+
         &:hover {
           text-decoration: underline;
         }
       }
     }
 
-    @media (min-width:900px) {
+    @media (min-width: 900px) {
       flex-direction: row;
       justify-content: space-between;
       align-items: flex-start;
-      
+
       .footer__box {
         text-align: start;
         align-items: flex-start;
@@ -537,4 +534,4 @@ body {
 
 .hidden {
   display: none;
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+}
