@@ -7,60 +7,69 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./css/images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./css/sytle.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Tip calculator app - Mooenz</title>
   </head>
   <body>
-    <main>
-      <header class="container_img">
+    <main class="main">
+      <header class="img_container">
         <img src="./css/images/logo.svg" alt="Logo splitter" />
       </header>
       <section class="content_container">
         <div class="data_container">
           <div class="data_bill">
-            <h2>Bill</h2>
-            <div>
+            <h2 class="sub_title">Bill</h2>
+            <div class="box">
               <img src="./css/images/icon-dollar.svg" alt="icon dollar" />
-              <input type="number" />
+              <input class="input" type="number" />
             </div>
           </div>
           <div class="data_tip">
-            <h2>Select Tip %</h2>
-            <button>5%</button>
-            <button>10%</button>
-            <button>15%</button>
-            <button>25%</button>
-            <button>50%</button>
-            <input type="number" placeholder="Custom" />
+            <h2 class="sub_title">Select Tip %</h2>
+            <div class="buttons_container">
+              <button class="button">5%</button>
+              <button class="button">10%</button>
+              <button class="button">15%</button>
+              <button class="button">25%</button>
+              <button class="button">50%</button>
+              <div class="input_container">
+                <input class="input" type="number" placeholder="Custom" />
+              </div>
+            </div>
           </div>
           <div class="data_people">
-            <h2>Number of People</h2>
-            <div>
+            <div class="sub_title_container">
+              <h2 class="sub_title">Number of People</h2>
+              <h2 class="sub_title text_error">Can´t be zero</h2>
+            </div>
+            <div class="box">
               <img src="./css/images/icon-person.svg" alt="icon person" />
-              <input type="number" />
+              <input class="input" type="number" placeholder="0"/>
             </div>
           </div>
         </div>
         <div class="response_container">
-          <div class="response_amount">
-            <h2>Tip Amount</h2>
-            <p>/ person</p>
-            <p class="respose_tip">
-              
-            </p>
+          <div class="response_box">
+            <div>
+              <h2 class="sub_title">Tip Amount</h2>
+              <p>/ person</p>
+            </div>
+            <p class="response_tip">$0.00</p>
           </div>
-          <div class="response_total">
-            <h2>Total</h2>
-            <p>/ person</p>
-            <p class="response_total">
-
-            </p>
+          <div class="response_box">
+            <div>
+              <h2 class="sub_title">Total</h2>
+              <p>/ person</p>
+            </div>
+            <p class="response_total">$0.00</p>
           </div>
-          <button>Reset</button>
+          <button class="button_reset">Reset</button>
         </div>
       </section>
     </main>
+    <script src="./index.js"></script>
   </body>
 </html>
