@@ -74,6 +74,8 @@ html {
 
 .content_container {
   background-color: var(--white);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   padding: 38px 32px;
@@ -87,7 +89,7 @@ html {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    max-width: 888px;
+    max-width: 920px;
     max-height: 481px;
     border-radius: 30px;
   }
@@ -204,6 +206,21 @@ html {
   overflow: hidden;
 }
 
+@media (min-width: 900px) {
+  .buttons_container .input_container .input::-webkit-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .buttons_container .input_container .input:-ms-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .buttons_container .input_container .input::-ms-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .buttons_container .input_container .input::placeholder {
+    font-size: 0.8rem;
+  }
+}
+
 .buttons_container .input_container:hover {
   border: 2px solid var(--strong-cyan);
 }
@@ -281,6 +298,21 @@ html {
 
 .response_container .button_reset:hover {
   background-color: var(--one-light-grayish-cyan);
+}
+
+@media (min-width: 900px) {
+  .response_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 /* Remove scroll from input type number */

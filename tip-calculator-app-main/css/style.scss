@@ -63,6 +63,7 @@ html {
 
 .content_container {
   background-color: var(--white);
+  box-sizing: border-box;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   padding: 38px 32px;
@@ -70,7 +71,7 @@ html {
   @media (min-width: 900px) {
     display: flex;
     justify-content: space-between;
-    max-width: 888px;
+    max-width: 920px;
     max-height: 481px;
     border-radius: 30px;
 
@@ -150,6 +151,10 @@ html {
         font-size: 1.1rem;
         color: var(--one-dark-grayish-cyan);
         overflow: hidden;
+
+        @media (min-width: 900px) {
+          font-size: 0.8rem;
+        }
       }
     }
 
@@ -223,6 +228,12 @@ html {
     &:hover {
       background-color: var(--one-light-grayish-cyan);
     }
+  }
+
+  @media (min-width:900px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
 
