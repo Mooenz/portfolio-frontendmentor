@@ -29,9 +29,19 @@ html {
   }
 }
 
-.error {
-  border: 2px solid var(--error-color);
+
+.container_error {
+  .sub_title_container {
+    .text_error {
+      display: block;  
+    }
+  }
+
+  .border_error {
+    border: 2px solid var(--error-color);
+  }
 }
+
 
 .select {
   background-color: var(--strong-cyan);
@@ -57,7 +67,7 @@ html {
   padding: 50px 0 40px;
 
   @media (min-width: 900px) {
-    padding: 0 0 90px;
+    padding: 0 0 88px;
   }
 }
 
@@ -71,8 +81,8 @@ html {
   @media (min-width: 900px) {
     display: flex;
     justify-content: space-between;
-    max-width: 920px;
-    max-height: 481px;
+    width: 920px;
+    height: 481px;
     border-radius: 30px;
 
     .response_container,

@@ -24,7 +24,11 @@ html {
   }
 }
 
-.error {
+.container_error .sub_title_container .text_error {
+  display: block;
+}
+
+.container_error .border_error {
   border: 2px solid var(--error-color);
 }
 
@@ -68,7 +72,7 @@ html {
 
 @media (min-width: 900px) {
   .img_container {
-    padding: 0 0 90px;
+    padding: 0 0 88px;
   }
 }
 
@@ -89,8 +93,8 @@ html {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    max-width: 920px;
-    max-height: 481px;
+    width: 920px;
+    height: 481px;
     border-radius: 30px;
   }
   .content_container .response_container,
