@@ -22,17 +22,21 @@ const calc = () => {
     RESPONSE_TIP.innerHTML = `$${Math.floor(tip * 100) / 100}`;
     RESPONSE_TOTAL.innerHTML = `$${total.toFixed(2)}`;
   }
-
 };
 
 const button = (event) => {
   const textButtom = event.target.innerHTML;
   const target = event.target.nodeName;
+  const classValue = event.target.classList.value;
 
   if(target === 'BUTTON') {
     tipValue = parseInt(textButtom);
+    calc();
+  } 
+
+  if(classValue === 'button_reset') {
+    console.log('Falta añadir la funcionalidad');
   }
-  calc();
 };
 
 const input = (event) => {
@@ -58,7 +62,7 @@ CONTENT_CONTAINER.addEventListener("input", input, false);
 
 // Toggle select class
 const BUTTONS = document.querySelectorAll(".button");
-const BUTTONS_ARRAY = [...BUTTONS]
+const BUTTONS_ARRAY = [...BUTTONS];
 BUTTONS_ARRAY.forEach((two) => {
   const toggle = () => {
     BUTTONS_ARRAY.forEach((item) => {
