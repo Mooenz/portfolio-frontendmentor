@@ -22,10 +22,10 @@
 html {
   font-size: 62.5%;
   font-family: var(--font-lexend);
-  background-color: var(--transparent-white);
 }
 
 .main-container {
+  background: var(--very-light-gray);
   height: auto;
   width: 100%;
   min-width: 320px;
