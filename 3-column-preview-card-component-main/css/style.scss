@@ -1,0 +1,116 @@
+:root {
+  // Colors primary
+  ---bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  // Colors neutral
+  --transparent-white: hsla(0, 0%, 100%, 0.75); //(paragraphs)
+  --very-light-gray: hsl(0, 0%, 95%); //(background, headings, buttons)
+
+  //fonts
+  --font-big: 'Big Shoulders Display', cursive;
+  --font-lexend: 'Lexend Deca', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: var(--font-lexend);
+}
+
+.main-container {
+  height: auto;
+  width: 100%;
+  min-width: 320px;
+  
+  &__articles {
+    width: 100%;
+    max-width: 920px;
+    height: auto;
+    padding: 88px 24px;
+  }
+
+  &__article {
+    width: 100%;
+    // max-width: 327px;
+    padding: 48px;
+  
+   h2 {
+     font-family: var(--font-big);
+     font-size: 4rem;
+     font-weight: 700;
+     text-transform: uppercase;
+     color: var(--very-light-gray);
+     margin: 20px 0;
+   }
+
+   p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: var(--transparent-white);
+    margin: 0 0 20px;
+    letter-spacing: 0.5px;
+   }
+
+   button {
+     background-color: var(--very-light-gray);
+     border: 1px solid transparent; 
+     border-radius: 30px;
+     font-size: 1.4rem;
+     font-weight: bold;
+     padding: 18px 32px;
+     width: 146px;
+   }
+  }
+
+  .sedans {
+    background-color: var(---bright-orange);
+    border-radius: 10px 10px 0 0;
+    button {
+      color: var(---bright-orange);
+
+      &:hover {
+        background-color: var(---bright-orange);
+        color: var(--very-light-gray);
+        border: 2px solid var(--very-light-gray);
+      }
+    }
+  }
+
+  .suvs {
+    background-color: var(--dark-cyan);
+
+    button {
+      color: var(--dark-cyan);
+      
+      &:hover {
+        background-color: var(--dark-cyan);
+        color: var(--very-light-gray);
+        border: 1px solid var(--very-light-gray);
+      }
+    }
+  }
+
+  .luxury {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 0 10px 10px;
+
+    button {
+      color: var(--very-dark-cyan);
+
+      &:hover {
+        background-color: var(--very-dark-cyan);
+        color: var(--very-light-gray);
+        border: 1px solid var(--very-light-gray);
+      }
+    }
+  }
+}
+
+

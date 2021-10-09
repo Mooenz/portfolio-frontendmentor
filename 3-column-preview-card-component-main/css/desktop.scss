@@ -1,0 +1,33 @@
+.main-container {
+  &__articles {
+    display: flex;
+    height: 500px;
+    padding: 0;
+
+    &--flex {
+      display: flex;
+      .sedans {
+        border-radius: 10px 0 0 10px;
+      }
+      .suvs {
+        border-radius: 0;
+      }
+    }
+
+    .luxury {      
+      border-radius: 0 10px 10px 0;
+    }
+  }
+
+  &__article {
+    width: 307px;
+    position: relative;
+
+    button {
+      position: absolute;
+      bottom: 0;
+      margin-bottom: 48px;
+    }
+  }
+  
+}

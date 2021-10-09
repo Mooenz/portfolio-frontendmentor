@@ -1,0 +1,111 @@
+:root {
+  ---bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+  --font-big: 'Big Shoulders Display', cursive;
+  --font-lexend: 'Lexend Deca', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: var(--font-lexend);
+}
+
+.main-container {
+  height: auto;
+  width: 100%;
+  min-width: 320px;
+}
+
+.main-container__articles {
+  width: 100%;
+  max-width: 920px;
+  height: auto;
+  padding: 88px 24px;
+}
+
+.main-container__article {
+  width: 100%;
+  padding: 48px;
+}
+
+.main-container__article h2 {
+  font-family: var(--font-big);
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--very-light-gray);
+  margin: 20px 0;
+}
+
+.main-container__article p {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: var(--transparent-white);
+  margin: 0 0 20px;
+  letter-spacing: 0.5px;
+}
+
+.main-container__article button {
+  background-color: var(--very-light-gray);
+  border: 1px solid transparent;
+  border-radius: 30px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 18px 32px;
+  width: 146px;
+}
+
+.main-container .sedans {
+  background-color: var(---bright-orange);
+  border-radius: 10px 10px 0 0;
+}
+
+.main-container .sedans button {
+  color: var(---bright-orange);
+}
+
+.main-container .sedans button:hover {
+  background-color: var(---bright-orange);
+  color: var(--very-light-gray);
+  border: 2px solid var(--very-light-gray);
+}
+
+.main-container .suvs {
+  background-color: var(--dark-cyan);
+}
+
+.main-container .suvs button {
+  color: var(--dark-cyan);
+}
+
+.main-container .suvs button:hover {
+  background-color: var(--dark-cyan);
+  color: var(--very-light-gray);
+  border: 1px solid var(--very-light-gray);
+}
+
+.main-container .luxury {
+  background-color: var(--very-dark-cyan);
+  border-radius: 0 0 10px 10px;
+}
+
+.main-container .luxury button {
+  color: var(--very-dark-cyan);
+}
+
+.main-container .luxury button:hover {
+  background-color: var(--very-dark-cyan);
+  color: var(--very-light-gray);
+  border: 1px solid var(--very-light-gray);
+}
+/*# sourceMappingURL=style.css.map */
