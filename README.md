@@ -104,9 +104,9 @@ Los proyectos pertenecen a [frontend mentor](https://www.frontendmentor.io/).
 
 ### Tip calculator app
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/tip-calculator-app)
+[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/tip-calculator-app-main)
 
-![Desktop](./tip-calculator-app/mooenz-desktop-solution.png)
+![Desktop](./tip-calculator-app-main/solution-capture/mooenz-desktop-solution.png)
 
 ### Social media dashboard with theme switcher
 
