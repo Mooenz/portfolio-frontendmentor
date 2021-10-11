@@ -1,0 +1,33 @@
+.main-container { 
+  background: url(../assets/images/pattern-background-desktop.svg) top/contain no-repeat var(--paleblue);
+
+  .card {
+    &__img {
+      height: 220px;
+    }
+
+    &__content {
+      padding: 50px 25px 20px;
+      
+      h1 {
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 20px;
+      }
+
+      p {
+        width: 80%;
+        margin: auto;
+      }
+    }
+
+      &__plan {
+        margin: 0 48px;
+        padding: 24px;
+      }
+
+      &__buttons {
+        padding: 30px 48px;
+      }
+  }  
+}

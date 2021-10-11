@@ -20,20 +20,34 @@ html {
   font-family: var(--font-red);
 }
 
+body {
+  height: 100vh;
+}
+
 .main-container {
-  height: auto;
+  height: 100%;
   width: 100%;
-  min-width: 320px;
-  background-color: var(--paleblue);
-  padding: 71px 24px;
+  min-width: 360px;
+  background: url(../assets/images/pattern-background-mobile.svg) top/contain no-repeat var(--paleblue);
+  padding: 0 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-container .card {
   width: 100%;
+  max-width: 450px;
+  max-height: 697px;
   background-color: #fff;
   border-radius: 15px;
   text-align: center;
-  max-height: 567px;
   -webkit-box-shadow: 0px 10px 30px -7px rgba(31, 47, 86, 0.5);
           box-shadow: 0px 10px 30px -7px rgba(31, 47, 86, 0.5);
 }
@@ -46,7 +60,7 @@ html {
 }
 
 .main-container .card__content {
-  padding: 30px 24px 20px;
+  padding: 30px 25px 20px;
 }
 
 .main-container .card__content h1 {
@@ -64,8 +78,8 @@ html {
 
 .main-container .card__plan {
   background-color: var(--very-pale-blue);
-  margin: 0 24px;
-  padding: 16px 14px;
+  margin: 0 25px;
+  padding: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,17 +99,14 @@ html {
   background-image: url(../assets/images/icon-music.svg);
 }
 
-.main-container .card__plan div {
+.main-container .card__plan > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
   height: auto;
 }
 
@@ -121,7 +132,7 @@ html {
 }
 
 .main-container .card__buttons {
-  padding: 30px 14px;
+  padding: 30px 25px;
   width: 100%;
   height: auto;
   display: -webkit-box;
@@ -140,7 +151,7 @@ html {
 }
 
 .main-container .card__buttons button {
-  width: 90%;
+  width: 100%;
   border: none;
   border-radius: 10px;
   height: 50px;

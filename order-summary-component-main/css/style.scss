@@ -24,19 +24,27 @@ html {
   font-family: var(--font-red);
 }
 
+body {
+  height: 100vh;
+}
+
 .main-container {
-  height: auto;
+  height: 100%;
   width: 100%;
-  min-width: 320px;
-  background-color: var(--paleblue);
-  padding: 71px 24px;
+  min-width: 360px;
+  background: url(../assets/images/pattern-background-mobile.svg) top/contain no-repeat var(--paleblue);
+  padding: 0 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   .card {
     width: 100%;
+    max-width: 450px;
+    max-height: 697px;
     background-color: #fff;
     border-radius: 15px;
     text-align: center;
-    max-height: 567px;
     box-shadow: 0px 10px 30px -7px rgba(31, 47, 86, 0.5);
 
     &__img {
@@ -48,7 +56,7 @@ html {
     }
 
     &__content {
-      padding: 30px 24px 20px;
+      padding: 30px 25px 20px;
 
       h1 {
         font-size: 2.3rem;
@@ -66,8 +74,8 @@ html {
 
     &__plan {
       background-color: var(--very-pale-blue);
-      margin: 0 24px;
-      padding: 16px 14px;
+      margin: 0 25px;
+      padding: 16px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -80,10 +88,10 @@ html {
         background-image: url(../assets/images/icon-music.svg);
       }
 
-      div {
+      > div {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
         height: auto;
       }
 
@@ -110,7 +118,7 @@ html {
     }
 
     &__buttons {
-      padding: 30px 14px ;
+      padding: 30px 25px ;
       width: 100%;
       height: auto;
       display: flex;
@@ -119,7 +127,7 @@ html {
       flex-direction: column;
 
       button {
-        width: 90%;
+        width: 100%;
         border: none;
         border-radius: 10px;
         height: 50px;
