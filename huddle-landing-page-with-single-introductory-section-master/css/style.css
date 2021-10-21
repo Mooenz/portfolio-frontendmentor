@@ -1,0 +1,136 @@
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+  --font-poppins: 'Open Sans', sans-serif;
+  --font-open: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-open);
+  font-size: 62.5%;
+  min-width: 375px;
+}
+
+.main-container {
+  background: var(--violet);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 60px;
+  padding: 40px 0;
+}
+
+.space-lateral {
+  padding: 0 35px;
+}
+
+.logo-container {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+}
+
+.logo-container img {
+  width: 130px;
+}
+
+.content-container .content__img img {
+  width: 100%;
+}
+
+.content-container .content__content {
+  margin: 60px 0 0;
+  text-align: center;
+  color: #fff;
+}
+
+.content-container .content__content h1 {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+.content-container .content__content p {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  margin: 20px 0;
+  font-family: var(--font-poppins);
+}
+
+.content-container .content__content button {
+  border-radius: 20px;
+  border: none;
+  color: var(--violet);
+  font-family: var(--font-open);
+  font-size: 1.2rem;
+  width: 65%;
+  padding: 10px 0;
+  margin: 0;
+  -webkit-box-shadow: 0px 7px 10px -7px rgba(21, 21, 21, 0.8);
+          box-shadow: 0px 7px 10px -7px rgba(21, 21, 21, 0.8);
+}
+
+.content-container .content__content button:hover {
+  color: #fff;
+  background-color: var(--soft-magenta);
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.footer div {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.footer div i {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.footer div:hover i {
+  color: #f85ac9;
+}
+
+.footer div:hover {
+  border: 1px solid #f85ac9;
+}
+/*# sourceMappingURL=style.css.map */
