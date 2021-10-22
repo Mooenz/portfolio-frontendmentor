@@ -15,11 +15,11 @@
 html {
   font-family: var(--font-open);
   font-size: 62.5%;
-  min-width: 375px;
+  min-width: 320px;
 }
 
 .main-container {
-  background: var(--violet);
+  background: url(../assets/images/bg-mobile.svg) no-repeat var(--violet);
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,6 +37,17 @@ html {
   padding: 40px 0;
 }
 
+@media screen and (min-width: 1024px) {
+  .main-container {
+    background: url(../assets/images/bg-desktop.svg) center/cover no-repeat var(--violet);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
 .space-lateral {
   padding: 0 35px;
 }
@@ -49,6 +60,12 @@ html {
 
 .logo-container img {
   width: 130px;
+}
+
+@media screen and (min-width: 1024px) {
+  .logo-container img {
+    width: 200px;
+  }
 }
 
 .content-container .content__img img {
@@ -89,6 +106,23 @@ html {
 .content-container .content__content button:hover {
   color: #fff;
   background-color: var(--soft-magenta);
+}
+
+@media screen and (min-width: 1024px) {
+  .content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content-container .content__content {
+    width: 500px;
+    text-align: start;
+  }
 }
 
 .footer {
