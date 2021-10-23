@@ -71,7 +71,7 @@ Los proyectos pertenecen a [frontend mentor](https://www.frontendmentor.io/).
 
 ![Desktop](./huddle-landing-page-with-single-introductory-section-master/solution-capture/mooenz-desktop-solution.png)
 
-### Intro component with component
+### Huddle landing page with single introductory section master
 
 [Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/intro-component-with-signup-form-master)
 
