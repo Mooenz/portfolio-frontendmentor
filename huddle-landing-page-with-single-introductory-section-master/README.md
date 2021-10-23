@@ -60,10 +60,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - Responsive design
-<<<<<<< HEAD
-=======
 - JS vanila
->>>>>>> 8d8439f8febbb1a38fe10cc9d538803346d71140
 
 ## Author
 
