@@ -1,0 +1,65 @@
+.space-lateral {
+  padding: 0 80px;
+}
+
+.main-container {
+  background: url(../assets/images/bg-desktop.svg) left/cover no-repeat var(--violet);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.logo-container {
+  margin: 60px 0 0;
+}
+
+.logo-container img {
+  width: 200px;
+}
+
+.content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 60px;
+}
+
+.content-container .content__img img {
+  width: 100%;
+}
+
+.content-container .content__content {
+  width: 500px;
+  text-align: start;
+}
+
+.content-container .content__content h1 {
+  font-size: 3.7rem;
+  line-height: 5.5rem;
+}
+
+.content-container .content__content button {
+  height: 56px;
+  font-size: 1.6rem;
+}
+
+.footer {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.footer div {
+  height: 42px;
+  width: 42px;
+}
+
+.footer div i {
+  color: #fff;
+  font-size: 1.8rem;
+}
+/*# sourceMappingURL=desktop.css.map */
