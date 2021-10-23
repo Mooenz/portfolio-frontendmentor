@@ -18,8 +18,13 @@ html {
   min-width: 320px;
 }
 
+.space-lateral {
+  padding: 0 35px;
+}
+
 .main-container {
   background: url(../assets/images/bg-mobile.svg) no-repeat var(--violet);
+  background-size: contain;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,35 +42,23 @@ html {
   padding: 40px 0;
 }
 
-@media screen and (min-width: 1024px) {
-  .main-container {
-    background: url(../assets/images/bg-desktop.svg) center/cover no-repeat var(--violet);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-}
-
-.space-lateral {
-  padding: 0 35px;
-}
-
 .logo-container {
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;
       align-self: start;
+  max-width: 1440px;
 }
 
 .logo-container img {
   width: 130px;
 }
 
-@media screen and (min-width: 1024px) {
-  .logo-container img {
-    width: 200px;
-  }
+.content-container {
+  max-width: 1440px;
+}
+
+.content-container .content__img {
+  text-align: center;
 }
 
 .content-container .content__img img {
@@ -73,7 +66,7 @@ html {
 }
 
 .content-container .content__content {
-  margin: 60px 0 0;
+  margin: 60px 0 10px;
   text-align: center;
   color: #fff;
 }
@@ -91,38 +84,23 @@ html {
 }
 
 .content-container .content__content button {
-  border-radius: 20px;
+  border-radius: 50px;
   border: none;
   color: var(--violet);
   font-family: var(--font-open);
   font-size: 1.2rem;
-  width: 65%;
+  width: 200px;
+  height: 40px;
   padding: 10px 0;
   margin: 0;
   -webkit-box-shadow: 0px 7px 10px -7px rgba(21, 21, 21, 0.8);
           box-shadow: 0px 7px 10px -7px rgba(21, 21, 21, 0.8);
+  cursor: pointer;
 }
 
 .content-container .content__content button:hover {
   color: #fff;
   background-color: var(--soft-magenta);
-}
-
-@media screen and (min-width: 1024px) {
-  .content-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .content-container .content__content {
-    width: 500px;
-    text-align: start;
-  }
 }
 
 .footer {
@@ -136,6 +114,7 @@ html {
       -ms-flex-align: center;
           align-items: center;
   gap: 10px;
+  margin: 0 0 40px;
 }
 
 .footer div {
