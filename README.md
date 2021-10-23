@@ -8,6 +8,7 @@ Pequeño fragmentos de HMTL, CSS, JS y la implementación de frameworks y librer
   - [Stats preview card component.](#stats-preview-card-component)
   - [Article preview component.](#article-preview-component)
   - [Base apparel coming soon.](#base-apparel-coming-soon)
+  - [Huddle landing page with single introductory section master.](#huddle-landing-page-with-single-introductory-section-master)
   - [Intro component with component.](#intro-component-with-component)
   - [Faq accordin card.](#faq-accordin-card)
   - [Ping single column coming soon page.](#ping-single-column-coming-soon-page)
@@ -63,6 +64,12 @@ Los proyectos pertenecen a [frontend mentor](https://www.frontendmentor.io/).
 [Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/base-apparel-coming-soon-master)
 
 ![Desktop](./base-apparel-coming-soon-master/solution-capture/mooenz-desktop-normal-solution.png)
+
+### Intro component with component
+
+[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/huddle-landing-page-with-single-introductory-section-master)
+
+![Desktop](./huddle-landing-page-with-single-introductory-section-master/solution-capture/mooenz-desktop-solution.png)
 
 ### Intro component with component
 
