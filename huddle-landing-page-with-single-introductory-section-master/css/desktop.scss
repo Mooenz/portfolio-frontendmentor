@@ -3,7 +3,7 @@
 }
 
 .main-container {
-  background: url(../assets/images/bg-desktop.svg) left/cover no-repeat
+  background: url(../assets/images/bg-desktop.svg) left/contain no-repeat
     var(--violet);
   position: absolute;
   top: 0;
@@ -41,7 +41,10 @@
       font-size: 3.7rem;
       line-height: 5.5rem;
     }
-
+    .content__content p {
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
     button {
       height: 56px;
       font-size: 1.6rem;
@@ -51,6 +54,7 @@
 
 .footer {
   align-self: flex-end;
+  margin: 0 0 40px;
 
   div {
     height: 42px;

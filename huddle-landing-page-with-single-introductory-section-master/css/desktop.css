@@ -3,7 +3,7 @@
 }
 
 .main-container {
-  background: url(../assets/images/bg-desktop.svg) left/cover no-repeat var(--violet);
+  background: url(../assets/images/bg-desktop.svg) left/contain no-repeat var(--violet);
   position: absolute;
   top: 0;
   left: 0;
@@ -43,6 +43,11 @@
   line-height: 5.5rem;
 }
 
+.content-container .content__content .content__content p {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
 .content-container .content__content button {
   height: 56px;
   font-size: 1.6rem;
@@ -51,6 +56,7 @@
 .footer {
   -ms-flex-item-align: end;
       align-self: flex-end;
+  margin: 0 0 40px;
 }
 
 .footer div {
