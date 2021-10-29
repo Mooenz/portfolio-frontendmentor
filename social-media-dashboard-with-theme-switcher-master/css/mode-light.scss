@@ -1,0 +1,76 @@
+.mode-light {
+  .main {
+    color: var(--very-dark-blue-text);
+    background-color: var(--white-bg);
+
+    .bg-top {
+      background-color: var(--very-pale-blue-bg-top);
+    }
+
+    .social-media {
+      &-content {
+        &__title {
+          p {
+            color: var(--dark-grayish-blue-text);
+          }
+        }
+
+        .dark-mode-container {
+          p {
+            color: var(--blue-text);
+          }
+
+          .dark-mode {
+            background: var(--toggle-off);
+
+            &:hover {
+              background: var(--toggle-on);
+              opacity: 1;
+              
+              &::before {
+                background: var(--white-bg);
+              }
+            }
+
+            &::before {
+              left: unset;
+              right: 0;
+            }
+          }
+        }
+      }
+
+      &__followers {
+        .card__followers {
+          background-color: var(--light-card-bg);
+
+          p:nth-child(1) {
+            color: var(--dark-grayish-blue-text);
+          }
+
+          p:nth-child(3) {
+            color: var(--dark-grayish-blue-text);
+          }
+        }
+      }
+    }
+
+    .stats {
+      &__title {
+        color: var(--dark-grayish-blue-text);
+      }
+
+      &__today {
+        .card-stats {
+          background-color: var(--light-card-bg);
+
+          &-type {
+            p {
+              color: var(--dark-grayish-blue-text);
+            }
+          }
+        }
+      }
+    }
+  }
+}

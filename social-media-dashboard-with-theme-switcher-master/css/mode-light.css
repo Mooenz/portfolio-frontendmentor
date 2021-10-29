@@ -1,0 +1,59 @@
+.mode-light .main {
+  color: var(--very-dark-blue-text);
+  background-color: var(--white-bg);
+}
+
+.mode-light .main .bg-top {
+  background-color: var(--very-pale-blue-bg-top);
+}
+
+.mode-light .main .social-media-content__title p {
+  color: var(--dark-grayish-blue-text);
+}
+
+.mode-light .main .social-media-content .dark-mode-container p {
+  color: var(--blue-text);
+}
+
+.mode-light .main .social-media-content .dark-mode-container .dark-mode {
+  background: var(--toggle-off);
+}
+
+.mode-light .main .social-media-content .dark-mode-container .dark-mode:hover {
+  background: var(--toggle-on);
+  opacity: 1;
+}
+
+.mode-light .main .social-media-content .dark-mode-container .dark-mode:hover::before {
+  background: var(--white-bg);
+}
+
+.mode-light .main .social-media-content .dark-mode-container .dark-mode::before {
+  left: unset;
+  right: 0;
+}
+
+.mode-light .main .social-media__followers .card__followers {
+  background-color: var(--light-card-bg);
+}
+
+.mode-light .main .social-media__followers .card__followers p:nth-child(1) {
+  color: var(--dark-grayish-blue-text);
+}
+
+.mode-light .main .social-media__followers .card__followers p:nth-child(3) {
+  color: var(--dark-grayish-blue-text);
+}
+
+.mode-light .main .stats__title {
+  color: var(--dark-grayish-blue-text);
+}
+
+.mode-light .main .stats__today .card-stats {
+  background-color: var(--light-card-bg);
+}
+
+.mode-light .main .stats__today .card-stats-type p {
+  color: var(--dark-grayish-blue-text);
+}
+/*# sourceMappingURL=mode-light.css.map */
