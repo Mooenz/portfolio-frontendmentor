@@ -1,0 +1,72 @@
+.main {
+  padding: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  .social-media {
+    width: 1111px;
+    margin: 40px auto 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+
+      &__title {
+        margin: 0 0 45px;
+
+        h2 {
+          font-size: 3rem;
+        }
+      }
+
+      .dark-mode-container {
+        border: none;
+      }
+    }
+
+    &__followers {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 30px;
+
+      .card__followers {
+        min-width: 256px;
+        max-width: 256px;
+      }
+    }
+  }
+
+  .stats {
+    width: 1111px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__title {
+      align-self: flex-start;
+    }
+
+    &__today {
+      grid-template-columns: repeat(4, auto);
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+
+      .card-stats {
+        min-width: 256px;
+        max-width: 256px;
+      }
+    }
+  }
+}
