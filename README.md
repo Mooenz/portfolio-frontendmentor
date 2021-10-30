@@ -117,13 +117,13 @@ Los proyectos pertenecen a [frontend mentor](https://www.frontendmentor.io/).
 
 ### Social media dashboard with theme switcher
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/social-media-dashboard-with-theme-switcher-master)
+[Look at code here](https://github.com/mooenz/frontend-portafolio/tree/main/social-media-dashboard-with-theme-switcher-master)
 
-![Desktop](./social-media-dashboard-with-theme-switcher-master/solution-capture/mooenz-desktop-solution.png)
+![Desktop](./social-media-dashboard-with-theme-switcher-master/solution-capture/mooenz-desktop-dark-solution.jpg)
 
 ### Crowdfunding product page
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/crowdfunding-product-page-main)
+[Look at code here](https://github.com/mooenz/frontend-portafolio/tree/main/crowdfunding-product-page-main)
 
 ![Desktop](./crowdfunding-product-page-main/solution-capture/mooenz-desktop-solution.png)
 
