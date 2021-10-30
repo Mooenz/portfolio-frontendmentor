@@ -26,13 +26,10 @@
             &:hover {
               background: var(--toggle-on);
               opacity: 1;
-              
-              &::before {
-                background: var(--white-bg);
-              }
             }
-
+            
             &::before {
+              background: var(--white-bg);
               left: unset;
               right: 0;
             }

@@ -41,6 +41,13 @@
       .card__followers {
         min-width: 256px;
         max-width: 256px;
+
+        &:hover {
+          &::after {
+            min-width: 256px;
+            max-width: 256px;
+          }
+        }
       }
     }
   }
@@ -66,6 +73,23 @@
       .card-stats {
         min-width: 256px;
         max-width: 256px;
+
+        &:hover {
+          &::before {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            width: 100%;
+            min-width: 256px;
+            max-width: 256px;
+            height: 125px;
+            border-radius: 5px;
+            left: 0;
+            top: 0;
+            background: var(--blue-text);
+            opacity: .1;
+          }
+        }
       }
     }
   }

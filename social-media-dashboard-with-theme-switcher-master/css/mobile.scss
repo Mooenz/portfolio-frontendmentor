@@ -52,7 +52,7 @@ html {
   background-color: var(--very-dark-blue-bg);
   min-width: 320px;
   position: relative;
-  
+
   .bg-top {
     width: 100%;
     height: 244px;
@@ -62,16 +62,16 @@ html {
     top: 0;
     left: 0;
   }
-  
+
   .social-media {
     margin: 0 0 50px;
     position: relative;
     z-index: 1;
-    
+
     &-content {
       &__title {
         margin: 0 0 25px;
-        
+
         h2 {
           font-size: 2.5rem;
           font-weight: 700;
@@ -118,8 +118,20 @@ html {
             width: 18px;
             border-radius: 20px;
           }
-          
+
           &:hover {
+            &::after {
+              content: '';
+              display: inline-block;
+              position: absolute;
+              width: 48px;
+              height: 24px;
+              border-radius: 30px;
+              left: 0;
+              top: 0;
+              background: var(--blue-text);
+              opacity: 0.2;
+            }
           }
         }
       }
@@ -183,6 +195,21 @@ html {
           font-size: 1.2rem;
           font-weight: 700;
         }
+
+        &:hover {
+          &::after {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            width: 100%;
+            min-width: 270px;
+            height: 216px;
+            left: 0;
+            top: 0;
+            background: var(--blue-text);
+            opacity: 0.1;
+          }
+        }
       }
     }
   }
@@ -206,6 +233,7 @@ html {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        position: relative;
 
         &-type {
           display: flex;
@@ -227,6 +255,22 @@ html {
           p:nth-child(1) {
             font-size: 3rem;
             font-weight: 700;
+          }
+        }
+
+        &:hover {
+          &::before {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            width: 100%;
+            min-width: 272px;
+            height: 125px;
+            border-radius: 5px;
+            left: 0;
+            top: 0;
+            background: var(--blue-text);
+            opacity: .1;
           }
         }
       }

@@ -24,11 +24,8 @@
   opacity: 1;
 }
 
-.mode-light .main .social-media-content .dark-mode-container .dark-mode:hover::before {
-  background: var(--white-bg);
-}
-
 .mode-light .main .social-media-content .dark-mode-container .dark-mode::before {
+  background: var(--white-bg);
   left: unset;
   right: 0;
 }

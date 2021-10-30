@@ -118,6 +118,19 @@ html {
   border-radius: 20px;
 }
 
+.main .social-media-content .dark-mode-container .dark-mode:hover::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 48px;
+  height: 24px;
+  border-radius: 30px;
+  left: 0;
+  top: 0;
+  background: var(--blue-text);
+  opacity: 0.2;
+}
+
 .main .social-media__followers {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -199,6 +212,19 @@ html {
   font-weight: 700;
 }
 
+.main .social-media__followers .card__followers:hover::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  min-width: 270px;
+  height: 216px;
+  left: 0;
+  top: 0;
+  background: var(--blue-text);
+  opacity: 0.1;
+}
+
 .main .stats__title {
   font-size: 1.7rem;
   font-weight: 700;
@@ -224,6 +250,7 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 20px;
+  position: relative;
 }
 
 .main .stats__today .card-stats-type {
@@ -259,6 +286,20 @@ html {
 .main .stats__today .card-stats-stat p:nth-child(1) {
   font-size: 3rem;
   font-weight: 700;
+}
+
+.main .stats__today .card-stats:hover::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  min-width: 272px;
+  height: 125px;
+  border-radius: 5px;
+  left: 0;
+  top: 0;
+  background: var(--blue-text);
+  opacity: .1;
 }
 
 .facebook {

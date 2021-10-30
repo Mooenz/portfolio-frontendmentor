@@ -66,6 +66,11 @@
   max-width: 256px;
 }
 
+.main .social-media__followers .card__followers:hover::after {
+  min-width: 256px;
+  max-width: 256px;
+}
+
 .main .stats {
   width: 1111px;
   margin: auto;
@@ -104,5 +109,20 @@
 .main .stats__today .card-stats {
   min-width: 256px;
   max-width: 256px;
+}
+
+.main .stats__today .card-stats:hover::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  min-width: 256px;
+  max-width: 256px;
+  height: 125px;
+  border-radius: 5px;
+  left: 0;
+  top: 0;
+  background: var(--blue-text);
+  opacity: .1;
 }
 /*# sourceMappingURL=desktop.css.map */
