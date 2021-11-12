@@ -18,6 +18,15 @@
       <div class="header__img-container">
         <img src="./assets/svg/logo.svg" alt="" />
       </div>
+      <span class="icon-burger"></span>
+      <nav class="nav-burger">
+        <ul>
+          <li>About</li>
+          <li>Discover</li>
+          <li>Get Started</li>
+        </ul>
+      </nav>
+
       <nav class="nav">
         <ul>
           <li>About</li>
@@ -29,7 +38,6 @@
 
     <main class="main">
       <section class="product">
-        <section></section>
         <span class="product__icon"></span>
         <section class="product__content">
           <h1 class="title">Mastercraft Bamboo Monitor Riser</h1>
@@ -41,7 +49,7 @@
 
         <section class="product__buttons">
           <button class="button" id="back-project">Back this project</button>
-          <button class="bookmark">Bookmark</button>
+          <button class="bookmark"><span></span></button>
         </section>
       </section>
 
@@ -60,8 +68,7 @@
           <p class="title">56</p>
           <p class="paragraph">days left</p>
         </section>
-
-        <!-- Barra -->
+        <input type="range" max="100" min="0" value="80">
       </section>
 
       <section class="about">
@@ -113,7 +120,7 @@
           </section>
         </section>
 
-        <section class="about__card">
+        <section class="about__card disable">
           <section class="sub-title-container">
             <h2 class="sub-title">Mahogany Special Edition</h2>
             <p class="price">Pledge $200 or more</p>
@@ -125,7 +132,7 @@
           </p>
           <section class="select-container">
             <p>0<span>left</span></p>
-            <button class="button disable">Out of Stock</button>
+            <button class="button">Out of Stock</button>
           </section>
         </section>
       </section>
@@ -228,7 +235,8 @@
 
     <!-- Success modal start -->
     <section class="modal__success">
-      <section class="modal">
+      <section class="modal__content">
+        <span class="icon"></span>
         <h2 class="sub-title">Thanks for your support!</h2>
         <p class="paragraph">
           Your pledge brings us one step closer to sharing Mastercraft Bamboo
