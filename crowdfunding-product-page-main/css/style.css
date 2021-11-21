@@ -24,30 +24,40 @@ html {
 
 .header {
   height: 300px;
-  background: url("../assets/images/image-hero-mobile.jpg") center/cover no-repeat, -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), to(black));
-  background: url("../assets/images/image-hero-mobile.jpg") center/cover no-repeat, linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, black 100%);
+  background: url("../assets/images/image-hero-mobile.jpg") center/cover no-repeat, -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7)));
+  background: url("../assets/images/image-hero-mobile.jpg") center/cover no-repeat, linear-gradient(0deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
   background-blend-mode: multiply;
   padding: 32px 24px;
+}
+
+.header .nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.header .icon-burger {
+.header .nav .logo {
+  width: 128px;
+  height: 20px;
+}
+
+.header .nav .icon-burger {
   display: inline-block;
   height: 16px;
   width: 16px;
   background: url("../assets/svg/icon-hamburger.svg");
 }
 
-.header .nav-burger {
+.header .nav .options-burger {
   display: none;
 }
 
-.header .nav {
+.header .nav .options {
   display: none;
 }
 
@@ -65,6 +75,8 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 20px;
+  width: 100%;
+  max-width: 730px;
 }
 
 .title {
@@ -88,12 +100,13 @@ html {
 .button {
   background: var(--moderate-cyan);
   border: none;
-  padding: 16px 44px;
+  padding: 16px 32px;
   font-size: 1.5rem;
   font-weight: 700;
   border-radius: 30px;
   color: #fff;
   height: 56px;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -150,22 +163,50 @@ html {
   gap: 9px;
 }
 
-.product__buttons .bookmark {
-  border: none;
+.product__buttons .button {
+  max-width: 204px;
+}
+
+.product__buttons .bookmark__container {
+  width: 173px;
+  background: #f4f8f9;
   border-radius: 30px;
   height: 56px;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.product__buttons .bookmark:hover {
+.product__buttons .bookmark__container .bookmark {
+  border: none;
+  border-radius: 30px;
+}
+
+.product__buttons .bookmark__container .bookmark:hover {
   opacity: 0.7;
 }
 
-.product__buttons .bookmark span {
+.product__buttons .bookmark__container .bookmark span {
+  display: inline-block;
   height: 56px;
   width: 56px;
-  display: inline-block;
   background: url("../assets/svg/icon-bookmark.svg") center/contain no-repeat;
+}
+
+.product__buttons .bookmark__container p {
+  color: var(--dark-gray);
+  font-size: 1.5rem;
+  font-weight: 700;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  padding: 0 18px 0 0;
 }
 
 .stats {
@@ -209,6 +250,20 @@ html {
 .stats input {
   width: 100%;
   height: 12px;
+}
+
+.stats .bar {
+  height: 12px;
+  width: 100%;
+  background: #f4f4f4;
+  border-radius: 20px;
+}
+
+.stats .bar__progress {
+  height: 100%;
+  width: 80%;
+  background: var(--moderate-cyan);
+  border-radius: 20px;
 }
 
 .about {
@@ -335,9 +390,7 @@ html {
   background-color: rgba(0, 0, 0, 0.4);
   /* Black w/ opacity */
   padding: 80px 24px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -385,10 +438,13 @@ html {
   gap: 24px;
 }
 
-.modal__cards .modal__card-content {
-  padding: 33px 24px;
+.modal__cards .modal__card {
   border: 1px solid #d8d8d8;
   border-radius: 8px;
+}
+
+.modal__cards .modal__card-content {
+  padding: 33px 24px;
 }
 
 .modal__cards .modal__card-content .card__header {
@@ -401,9 +457,24 @@ html {
           align-items: center;
 }
 
-.modal__cards .modal__card-content .card__header input[type=radio] {
+.modal__cards .modal__card-content .card__header input[type='radio'] {
   height: 24px;
   width: 24px;
+  padding: 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid #d8d8d8;
+  border-radius: 30px;
+}
+
+.modal__cards .modal__card-content .card__header input[type='radio']:checked::after {
+  display: block;
+  content: '';
+  height: 12px;
+  width: 12px;
+  border-radius: 20px;
+  background: var(--moderate-cyan);
 }
 
 .modal__cards .modal__card-content .card__header .sub-title {
@@ -444,13 +515,90 @@ html {
 
 .modal__cards .modal__card-pledge {
   display: none;
+  border-top: 2px solid #ececec;
+  padding: 32px 24px 20px;
 }
 
-.not-scroll {
-  overflow: hidden;
+.modal__cards .modal__card-pledge .paragraph {
+  text-align: center;
+  margin: 0 0 20px;
 }
 
-.show-modal {
-  opacity: 1;
+.modal__cards .modal__card-pledge .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 16px;
+}
+
+.modal__cards .modal__card-pledge .buttons .input-container {
+  width: 100px;
+  border: 1px solid #d8d8d8;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  padding: 0 0 0 24px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.modal__cards .modal__card-pledge .buttons .input-container p {
+  color: #bbbbbb;
+  font-weight: 700;
+}
+
+.modal__cards .modal__card-pledge .buttons .input-container input {
+  width: 50px;
+  padding: 12px 24px 12px 0;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  outline: none;
+}
+
+.modal__cards .modal__card-pledge .buttons button {
+  width: 115px;
+  height: auto;
+  padding: 12px 24px;
+}
+
+.show_modal .main {
+  position: fixed;
+}
+
+.show_modal .modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.show--modal-success .main {
+  position: fixed;
+}
+
+.show--modal-success .modal__success {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.modal__card.active-pledge {
+  border: 1px solid var(--moderate-cyan);
+}
+
+.modal__card.active-pledge .modal__card-pledge {
+  display: inline-block;
 }
 /*# sourceMappingURL=style.css.map */

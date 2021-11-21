@@ -30,24 +30,35 @@ html {
 .header {
   height: 300px;
   background: url('../assets/images/image-hero-mobile.jpg') center/cover
-    no-repeat, linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+      no-repeat,
+    linear-gradient(0deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
   background-blend-mode: multiply;
   padding: 32px 24px;
-  display: flex;
-  justify-content: space-between;
-
-  .icon-burger {
-    display: inline-block;
-    height: 16px;
-    width: 16px;
-    background: url('../assets/svg/icon-hamburger.svg');
-  }
-  .nav-burger {
-    display: none;
-  }
 
   .nav {
-    display: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    .logo {
+      width: 128px;
+      height: 20px;
+    }
+
+    .icon-burger {
+      display: inline-block;
+      height: 16px;
+      width: 16px;
+      background: url('../assets/svg/icon-hamburger.svg');
+    }
+    .options-burger {
+      display: none;
+    }
+
+    .options {
+      display: none;
+    }
   }
 }
 
@@ -60,6 +71,8 @@ html {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 100%;
+  max-width: 730px;
 }
 
 .title {
@@ -83,12 +96,13 @@ html {
 .button {
   background: var(--moderate-cyan);
   border: none;
-  padding: 16px 44px;
+  padding: 16px 32px;
   font-size: 1.5rem;
   font-weight: 700;
   border-radius: 30px;
   color: #fff;
   height: 56px;
+  width: 100%;
   cursor: pointer;
 
   &:hover {
@@ -131,22 +145,43 @@ html {
     align-items: center;
     gap: 9px;
 
-    .bookmark {
-      border: none;
+    .button {
+      max-width: 204px;
+    }
+
+    .bookmark__container {
+      width: 173px;
+      background: #f4f8f9;
       border-radius: 30px;
       height: 56px;
       cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
-      &:hover {
-        opacity: 0.7;
+      .bookmark {
+        border: none;
+        border-radius: 30px;
+
+        &:hover {
+          opacity: 0.7;
+        }
+
+        span {
+          display: inline-block;
+          height: 56px;
+          width: 56px;
+          background: url('../assets/svg/icon-bookmark.svg') center/contain
+            no-repeat;
+        }
       }
 
-      span {
-        height: 56px;
-        width: 56px;
-        display: inline-block;
-        background: url('../assets/svg/icon-bookmark.svg') center/contain
-          no-repeat;
+      p {
+        color: var(--dark-gray);
+        font-size: 1.5rem;
+        font-weight: 700;
+        justify-self: center;
+        padding: 0 18px 0 0;
       }
     }
   }
@@ -183,6 +218,20 @@ html {
   input {
     width: 100%;
     height: 12px;
+  }
+
+  .bar {
+    height: 12px;
+    width: 100%;
+    background: #f4f4f4;
+    border-radius: 20px;
+
+    &__progress {
+      height: 100%;
+      width: 80%;
+      background: var(--moderate-cyan);
+      border-radius: 20px;
+    }
   }
 }
 
@@ -307,7 +356,7 @@ html {
   height: auto;
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
   padding: 80px 24px;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 
@@ -340,20 +389,32 @@ html {
     gap: 24px;
 
     .modal__card {
+      border: 1px solid #d8d8d8;
+      border-radius: 8px;
       &-content {
         padding: 33px 24px;
-        border: 1px solid #d8d8d8;
-        border-radius: 8px;
-
         .card__header {
           display: flex;
           gap: 16px;
           align-items: center;
 
-          input[type=radio] {
+          input[type='radio'] {
             height: 24px;
             width: 24px;
+            padding: 5px;
+            appearance: none;
             // input.checked = false
+            border: 1px solid #d8d8d8;
+            border-radius: 30px;
+          }
+
+          input[type='radio']:checked::after {
+            display: block;
+            content: '';
+            height: 12px;
+            width: 12px;
+            border-radius: 20px;
+            background: var(--moderate-cyan);
           }
 
           .sub-title {
@@ -389,15 +450,82 @@ html {
 
       &-pledge {
         display: none;
+        border-top: 2px solid #ececec;
+        padding: 32px 24px 20px;
+
+        .paragraph {
+          text-align: center;
+          margin: 0 0 20px;
+        }
+
+        .buttons {
+          display: flex;
+          justify-content: space-between;
+          gap: 16px;
+
+          .input-container {
+            width: 100px;
+            border: 1px solid #d8d8d8;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            padding: 0 0 0 24px;
+            font-size: 1.4rem;
+            font-weight: 700;
+
+            p {
+              color: #bbbbbb;
+              font-weight: 700;
+            }
+
+            input {
+              width: 50px;
+              padding: 12px 24px 12px 0;
+              border-radius: 30px;
+              border: none;
+              font-size: 1.4rem;
+              font-weight: 700;
+              outline: none;
+            }
+          }
+
+          button {
+            width: 115px;
+            height: auto;
+            padding: 12px 24px;
+          }
+        }
       }
     }
   }
 }
 
-.not-scroll {
-  overflow: hidden;
+.show_modal {
+  .main {
+    position: fixed;
+  }
+
+  .modal {
+    display: flex;
+  }
 }
 
-.show-modal {
-  opacity: 1;
+.show--modal-success {
+  .main {
+    position: fixed;
+  }
+
+  .modal__success {
+    display: flex;
+  }
+}
+
+.modal__card.active-pledge {
+  border: 1px solid var(--moderate-cyan);
+
+  .modal__card-pledge {
+    display: inline-block;
+  }
 }
