@@ -10,30 +10,31 @@
       href="./assets/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width:700px)" />
 
-    <title>Frontend Mentor | Crowdfunding product page</title>
+    <title>Crowdfunding product page - Mooenz</title>
   </head>
   <body>
     <header class="header">
-      <div class="header__img-container">
-        <img src="./assets/svg/logo.svg" alt="" />
-      </div>
-      <span class="icon-burger"></span>
-      <nav class="nav-burger">
-        <ul>
-          <li>About</li>
-          <li>Discover</li>
-          <li>Get Started</li>
-        </ul>
-      </nav>
-
-      <nav class="nav">
-        <ul>
-          <li>About</li>
-          <li>Discover</li>
-          <li>Get Started</li>
-        </ul>
-      </nav>
+      <section class="nav">
+        <img class="logo" src="./assets/svg/logo.svg" alt="" />
+        <span class="icon-burger"></span>
+        <nav class="options-burger">
+          <ul>
+            <li>About</li>
+            <li>Discover</li>
+            <li>Get Started</li>
+          </ul>
+        </nav>
+  
+        <nav class="options">
+          <ul>
+            <li>About</li>
+            <li>Discover</li>
+            <li>Get Started</li>
+          </ul>
+        </nav>
+      </section>
     </header>
 
     <main class="main">
@@ -49,7 +50,10 @@
 
         <section class="product__buttons">
           <button class="button" id="back-project">Back this project</button>
-          <button class="bookmark"><span></span></button>
+          <div class="bookmark__container">
+            <button class="bookmark"><span></span></button>
+            <p>Bookmarked</p>
+          </div>
         </section>
       </section>
 
@@ -68,7 +72,9 @@
           <p class="title">56</p>
           <p class="paragraph">days left</p>
         </section>
-        <input type="range" max="100" min="0" value="80" />
+        <div class="bar">
+          <div class="bar__progress"></div>
+        </div>
       </section>
 
       <section class="about">
@@ -149,7 +155,7 @@
           the world?
         </p>
         <section class="modal__cards">
-          <section class="modal__card-content">
+          <section class="modal__card-content modal__card">
             <div class="card__header">
               <input type="radio" name="bamboo" id="no-reward" />
               <h2 class="sub-title">Pledge with no reward</h2>
@@ -179,9 +185,12 @@
             <!-- Selected pledge start -->
             <section class="modal__card-pledge">
               <p class="paragraph">Enter your pledge</p>
-              <div class="modal__buttons">
-                <input type="text" name="" id="" value="$25" />
-                <button>Continue</button>
+              <div class="buttons">
+                <div class="input-container">
+                  <p>$</p>
+                  <input type="number" name="bamboo-pledge" value="25" />
+                </div>
+                <button class="button">Continue</button>
               </div>
             </section>
             <!-- Selected pledge end -->
@@ -205,9 +214,12 @@
             <!-- Selected pledge start -->
             <section class="modal__card-pledge">
               <p class="paragraph">Enter your pledge</p>
-              <div class="modal__buttons">
-                <input type="text" name="" id="" value="$75" />
-                <button>Continue</button>
+              <div class="buttons">
+                <div class="input-container">
+                  <p>$</p>
+                  <input type="number" name="black-pledge" value="75" />
+                </div>
+                <button class="button">Continue</button>
               </div>
             </section>
             <!-- Selected pledge end -->
@@ -231,9 +243,12 @@
             <!-- Selected pledge start -->
             <section class="modal__card-pledge">
               <p class="paragraph">Enter your pledge</p>
-              <div class="modal__buttons">
-                <input type="text" name="" id="" value="$200" />
-                <button>Continue</button>
+              <div class="buttons">
+                <div class="input-container">
+                  <p>$</p>
+                  <input type="number" name="special-pledge" value="200" />
+                </div>
+                <button class="button">Continue</button>
               </div>
             </section>
             <!-- Selected pledge end -->
