@@ -1,0 +1,67 @@
+.header {
+  height: 400px;
+  background: url('../assets/images/image-hero-desktop.jpg') center/cover
+      no-repeat,
+    linear-gradient(0deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+  padding: 44px 24px;
+
+  .nav {
+    .icon-burger {
+      display: none;
+    }
+
+    .options {
+      display: inline-block;
+    }
+  }
+}
+
+.main {
+  left: calc(50% - 365px);
+  top: 308px;
+}
+
+.title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+}
+
+.sub-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+}
+
+.paragraph {
+  color: var(--dark-gray);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.product {
+  padding: 47px;
+
+  title {
+    width: 90%;
+  }
+
+  &__buttons {
+    justify-content: space-between;
+
+    .bookmark__container {
+      width: 173px;
+
+      .bookmark {
+        &:hover {
+        }
+
+        span {
+        }
+      }
+      p {
+        display: inline-block;
+      }
+    }
+  }
+}

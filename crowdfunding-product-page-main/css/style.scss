@@ -40,6 +40,7 @@ html {
     justify-content: space-between;
     max-width: 1100px;
     margin: 0 auto;
+    position: relative;
 
     .logo {
       width: 128px;
@@ -50,14 +51,57 @@ html {
       display: inline-block;
       height: 16px;
       width: 16px;
-      background: url('../assets/svg/icon-hamburger.svg');
+      background: url('../assets/svg/icon-hamburger.svg') center/cover no-repeat;
     }
     .options-burger {
       display: none;
+      z-index: 1;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 70px 24px 0;
+
+      ul {
+        width: 100%;
+        background: #fff;
+        border-radius: 10px;
+        height: 212px;
+        list-style: none;
+        padding: 0 24px;
+        font-size: 2rem;
+        font-weight: 500;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        li:nth-child(2) {
+          border-top: 1px solid #ececec;
+          border-bottom: 1px solid #ececec;
+        }
+
+        li {
+          padding: 23px 0;
+        }
+      }
     }
 
     .options {
       display: none;
+
+      ul {
+        display: flex;
+        gap: 32px;
+        list-style: none;
+        color: #fff;
+        font-size: 1.1rem;
+
+        li {
+          cursor: pointer;
+        }
+      }
     }
   }
 }
@@ -150,7 +194,7 @@ html {
     }
 
     .bookmark__container {
-      width: 173px;
+      width: 0;
       background: #f4f8f9;
       border-radius: 30px;
       height: 56px;
@@ -177,6 +221,7 @@ html {
       }
 
       p {
+        display: none;
         color: var(--dark-gray);
         font-size: 1.5rem;
         font-weight: 700;
@@ -497,6 +542,24 @@ html {
             padding: 12px 24px;
           }
         }
+      }
+    }
+  }
+}
+
+.active-options {
+  main {
+    position: fixed;
+  }
+
+  .header {
+    .nav {
+      .icon-burger {
+      background: url('../assets/svg/icon-close-menu.svg') center/cover no-repeat;
+      }
+
+      .options-burger {
+        display: inline-block;
       }
     }
   }
