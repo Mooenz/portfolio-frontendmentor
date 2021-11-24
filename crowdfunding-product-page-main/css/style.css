@@ -107,7 +107,7 @@ html {
   gap: 32px;
   list-style: none;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .header .nav .options ul li {
@@ -128,7 +128,6 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 20px;
-  width: 100%;
   max-width: 730px;
 }
 
@@ -264,19 +263,8 @@ html {
 }
 
 .stats {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: -ms-grid;
+  display: grid;
   text-align: center;
   height: 413px;
   background: #fff;
@@ -299,11 +287,6 @@ html {
 
 .stats__days {
   margin: 0 0 20px;
-}
-
-.stats input {
-  width: 100%;
-  height: 12px;
 }
 
 .stats .bar {
@@ -420,6 +403,7 @@ html {
   background: #fff;
   padding: 40px 24px;
   border-radius: 10px;
+  max-width: 540px;
 }
 
 .modal__success .modal__content .icon {
@@ -434,13 +418,18 @@ html {
   margin: 20px 0 30px;
 }
 
+.modal__success .modal__content .button {
+  width: 107px;
+  padding: 12px 24px;
+}
+
 .modal {
   position: absolute;
   z-index: 1;
   left: 0;
   top: 0;
+  right: 0;
   width: 100%;
-  height: auto;
   background-color: rgba(0, 0, 0, 0.4);
   /* Black w/ opacity */
   padding: 80px 24px;
@@ -457,6 +446,7 @@ html {
   background-color: #fff;
   padding: 36px 24px 0;
   border-radius: 10px;
+  max-width: 730px;
 }
 
 .modal__content .icon-close {

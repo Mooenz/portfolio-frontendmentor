@@ -96,7 +96,7 @@ html {
         gap: 32px;
         list-style: none;
         color: #fff;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
 
         li {
           cursor: pointer;
@@ -115,7 +115,6 @@ html {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 100%;
   max-width: 730px;
 }
 
@@ -233,10 +232,7 @@ html {
 }
 
 .stats {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
   text-align: center;
   height: 413px;
   background: #fff;
@@ -258,11 +254,6 @@ html {
 
   &__days {
     margin: 0 0 20px;
-  }
-
-  input {
-    width: 100%;
-    height: 12px;
   }
 
   .bar {
@@ -377,7 +368,8 @@ html {
     background: #fff;
     padding: 40px 24px;
     border-radius: 10px;
-
+    max-width: 540px;
+    
     .icon {
       height: 64px;
       width: 64px;
@@ -389,6 +381,11 @@ html {
     .paragraph {
       margin: 20px 0 30px;
     }
+
+    .button {
+      width: 107px;
+      padding: 12px 24px;
+    }
   }
 }
 
@@ -397,8 +394,8 @@ html {
   z-index: 1;
   left: 0;
   top: 0;
+  right: 0;
   width: 100%;
-  height: auto;
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
   padding: 80px 24px;
   display: none;
@@ -409,6 +406,7 @@ html {
     background-color: #fff;
     padding: 36px 24px 0;
     border-radius: 10px;
+    max-width: 730px;
 
     .icon-close {
       display: inline-block;
@@ -436,8 +434,10 @@ html {
     .modal__card {
       border: 1px solid #d8d8d8;
       border-radius: 8px;
+
       &-content {
         padding: 33px 24px;
+
         .card__header {
           display: flex;
           gap: 16px;
@@ -579,7 +579,7 @@ html {
   .main {
     position: fixed;
   }
-
+  
   .modal__success {
     display: flex;
   }
