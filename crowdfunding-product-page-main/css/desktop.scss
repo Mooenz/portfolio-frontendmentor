@@ -40,7 +40,7 @@
 }
 
 .product {
-  padding: 47px;
+  padding: 44px;
 
   title {
     width: 90%;
@@ -52,15 +52,141 @@
     .bookmark__container {
       width: 173px;
 
-      .bookmark {
-        &:hover {
-        }
-
-        span {
-        }
-      }
       p {
         display: inline-block;
+      }
+    }
+  }
+}
+
+.stats {
+  padding: 40px 48px;
+  height: 210px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    'backed total-backed days'
+    'bar bar bar';
+
+  &__backed {
+    grid-area: backed;
+  }
+  &__total-backed {
+    width: 100%;
+    grid-area: total-backed;
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__days {
+    grid-area: days;
+  }
+
+  .bar {
+    grid-area: bar;
+    align-self: center;
+  }
+}
+
+.about {
+  padding: 40px 48px;
+  margin: 0 0 125px;
+
+  p:nth-child(2) {
+    line-height: 2.8rem;
+  }
+
+  &__card {
+    padding: 30px;
+    .sub-title-container {
+      margin: 0 0 25px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .sub-title {
+        font-size: 1.8rem;
+      }
+
+      .price {
+        margin: 0;
+        font-weight: 700;
+      }
+    }
+
+    .select-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      p {
+        margin: 0;
+      }
+
+      .button {
+        width: 157px;
+      }
+    }
+  }
+}
+
+.modal__success {
+  .modal__content {
+    padding: 50px;
+    .icon {
+      width: 90px;
+      height: 90px;
+    }
+
+    .sub-title {
+      font-size: 2.5rem;
+    }
+
+    .paragraph {
+      font-size: 1.8rem;
+      line-height: 3.5rem;
+    }
+  }
+}
+
+.modal {
+  &__content {
+    padding: 48px;
+    position: relative;
+
+    .icon-close {
+      position: absolute;
+      top: 32px;
+      right: 32px;
+    }
+
+    .title {
+      margin: 0 0 15px;
+      font-size: 2.5rem;
+    }
+  }
+
+  &__cards {
+    padding: 36px 0;
+
+    .modal__card {
+      &-content {
+        padding: 36px 28px;
+        position: relative;
+
+        .card__header {
+          .sub-title {
+            flex-direction: row;
+            gap: 16px;
+          }
+        }
+
+        .p-stats {
+          position: absolute;
+          right: 0;
+          top: 0;
+          margin: 35px 28px 0 0;
+        }
       }
     }
   }
