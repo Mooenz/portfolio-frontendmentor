@@ -50,12 +50,15 @@
           justify-content: space-between;
 }
 
-.product__buttons .bookmark__container {
-  width: 173px;
-}
-
-.product__buttons .bookmark__container p {
+.product__buttons .bookmark::before {
   display: inline-block;
+  content: 'Bookmarked';
+  color: var(--dark-gray);
+  font-size: 1.5rem;
+  font-weight: 700;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  padding: 0 18px 0 0;
 }
 
 .stats {
@@ -211,5 +214,16 @@
   right: 0;
   top: 0;
   margin: 35px 28px 0 0;
+}
+
+.modal__cards .active__modal .modal__card-pledge {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.modal__cards .active__modal .modal__card-pledge p {
+  margin: 0;
 }
 /*# sourceMappingURL=desktop.css.map */

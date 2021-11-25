@@ -49,11 +49,15 @@
   &__buttons {
     justify-content: space-between;
 
-    .bookmark__container {
-      width: 173px;
-
-      p {
+    .bookmark {
+      &::before {
         display: inline-block;
+        content: 'Bookmarked';
+        color: var(--dark-gray);
+        font-size: 1.5rem;
+        font-weight: 700;
+        justify-self: center;
+        padding: 0 18px 0 0;
       }
     }
   }
@@ -187,6 +191,18 @@
           top: 0;
           margin: 35px 28px 0 0;
         }
+      }
+    }
+  }
+}
+
+.modal__cards {
+  .active__modal {
+    .modal__card-pledge {
+      flex-direction: row;
+
+      p {
+        margin: 0;
       }
     }
   }
