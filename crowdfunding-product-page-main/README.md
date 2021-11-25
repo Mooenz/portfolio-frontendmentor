@@ -4,6 +4,7 @@ This is a solution to the [Crowdfunding product page challenge on Frontend Mento
 
 ## Table of contents
 
+- [Mooenz - Crowdfunding product page solution](#mooenz---crowdfunding-product-page-solution)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
