@@ -192,41 +192,34 @@ html {
       max-width: 204px;
     }
 
+    .bookmark {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+      gap: 8px;
+      background: #f4f8f9;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.7;
+      }
+
+      span {
+        display: inline-block;
+        height: 56px;
+        width: 56px;
+        background: url('../assets/svg/icon-bookmark.svg') center/contain
+          no-repeat;
+      }
+    }
+
     .bookmark__container {
       width: 0;
-      background: #f4f8f9;
       border-radius: 30px;
       height: 56px;
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      .bookmark {
-        border: none;
-        border-radius: 30px;
-
-        &:hover {
-          opacity: 0.7;
-        }
-
-        span {
-          display: inline-block;
-          height: 56px;
-          width: 56px;
-          background: url('../assets/svg/icon-bookmark.svg') center/contain
-            no-repeat;
-        }
-      }
-
-      p {
-        display: none;
-        color: var(--dark-gray);
-        font-size: 1.5rem;
-        font-weight: 700;
-        justify-self: center;
-        padding: 0 18px 0 0;
-      }
     }
   }
 }
@@ -369,7 +362,7 @@ html {
     padding: 40px 24px;
     border-radius: 10px;
     max-width: 540px;
-    
+
     .icon {
       height: 64px;
       width: 64px;
@@ -527,7 +520,6 @@ html {
 
             input {
               width: 50px;
-              padding: 12px 24px 12px 0;
               border-radius: 30px;
               border: none;
               font-size: 1.4rem;
@@ -555,7 +547,8 @@ html {
   .header {
     .nav {
       .icon-burger {
-      background: url('../assets/svg/icon-close-menu.svg') center/cover no-repeat;
+        background: url('../assets/svg/icon-close-menu.svg') center/cover
+          no-repeat;
       }
 
       .options-burger {
@@ -579,7 +572,7 @@ html {
   .main {
     position: fixed;
   }
-  
+
   .modal__success {
     display: flex;
   }
@@ -590,5 +583,31 @@ html {
 
   .modal__card-pledge {
     display: inline-block;
+  }
+}
+
+.product__buttons.bookmark__active {
+  .bookmark {
+    span {
+      background: url(../assets/svg/icon-bookmark-chek.svg);
+    }
+
+    &::before {
+      color: var(--moderate-cyan);
+    }
+  }
+}
+
+.modal__cards {
+  .active__modal {
+    border: 1px solid var(--moderate-cyan);
+    border-radius: 8px;
+
+    .modal__card-pledge {  
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+    }
   }
 }
