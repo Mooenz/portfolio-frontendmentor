@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./css/desktop.css" media="(min-width:700px)" />
 
     <title>Crowdfunding product page - Mooenz</title>
+
+    <script src="./src/index.js" type="module" defer></script>
   </head>
   <body class="">
     <header class="header">
@@ -26,7 +28,7 @@
             <li>Get Started</li>
           </ul>
         </nav>
-  
+
         <nav class="options">
           <ul>
             <li>About</li>
@@ -50,10 +52,9 @@
 
         <section class="product__buttons">
           <button class="button" id="back-project">Back this project</button>
-          <div class="bookmark__container">
-            <button class="bookmark"><span></span></button>
-            <p>Bookmarked</p>
-          </div>
+          <button class="bookmark" id="bookmark-mobile">
+            <span id="bookmark-desktop"></span>
+          </button>
         </section>
       </section>
 
@@ -148,29 +149,32 @@
     <section class="modal">
       <section class="modal__content">
         <h2 class="title">
-          Back this project <span class="icon-close"></span>
+          Back this project <span class="icon-close" id="icon-close"></span>
         </h2>
         <p class="paragraph">
           Want to support us in bringing Mastercraft Bamboo Monitor Riser out in
           the world?
         </p>
+
         <section class="modal__cards">
-          <section class="modal__card-content modal__card">
-            <div class="card__header">
-              <input type="radio" name="bamboo" id="no-reward" />
-              <h2 class="sub-title">Pledge with no reward</h2>
-            </div>
-            <p class="paragraph">
-              Choose to support us without a reward if you simply believe in our
-              project. As a backer, you will be signed up to receive product
-              updates via email.
-            </p>
+          <section class="modal__card">
+            <section class="modal__card-content">
+              <div class="card__header">
+                <input type="radio" name="bamboo" id="no-reward" />
+                <h2 class="sub-title">Pledge with no reward</h2>
+              </div>
+              <p class="paragraph">
+                Choose to support us without a reward if you simply believe in
+                our project. As a backer, you will be signed up to receive
+                product updates via email.
+              </p>
+            </section>
           </section>
 
           <section class="modal__card">
             <section class="modal__card-content">
               <div class="card__header">
-                <input type="radio" name="bamboo" id="bamboo" />
+                <input type="radio" name="bamboo" />
                 <h2 class="sub-title">
                   Bamboo Stand<span>Pledge $25 or more</span>
                 </h2>
@@ -190,7 +194,7 @@
                   <p>$</p>
                   <input type="number" name="bamboo-pledge" value="25" />
                 </div>
-                <button class="button">Continue</button>
+                <button class="button" id="bamboo">Continue</button>
               </div>
             </section>
             <!-- Selected pledge end -->
@@ -199,7 +203,7 @@
           <section class="modal__card">
             <section class="modal__card-content">
               <div class="card__header">
-                <input type="radio" name="black" id="black" />
+                <input type="radio" name="black" />
                 <h2 class="sub-title">
                   Black Edition Stand<span>Pledge $75 or more</span>
                 </h2>
@@ -219,7 +223,7 @@
                   <p>$</p>
                   <input type="number" name="black-pledge" value="75" />
                 </div>
-                <button class="button">Continue</button>
+                <button class="button" id="black">Continue</button>
               </div>
             </section>
             <!-- Selected pledge end -->
@@ -228,7 +232,7 @@
           <section class="modal__card disable">
             <section class="modal__card-content">
               <div class="card__header">
-                <input type="radio" name="special" id="special" />
+                <input type="radio" name="special" />
                 <h2 class="sub-title">
                   Mahogany Special Edition<span>Pledge $200 or more</span>
                 </h2>
@@ -267,10 +271,9 @@
           Monitor Riser worldwide. You will get an email once our campaign is
           completed.
         </p>
-        <button class="button">Got it!</button>
+        <button class="button" id="close-success">Got it!</button>
       </section>
     </section>
     <!-- Success modal end -->
-    <script src="./src/index.js" type="module" defer></script>
   </body>
 </html>
