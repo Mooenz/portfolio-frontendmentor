@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Crowdfunding product page solution.](https://www.frontendmentor.io/solutions/html-css-scss-flexbox-mobile-first-responsive-design-and-js-9GsmTqsWN)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-portafolio/crowdfunding-product-page-main/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-mentor-portafolio/crowdfunding-product-page-main/)
 
 ## My process
 

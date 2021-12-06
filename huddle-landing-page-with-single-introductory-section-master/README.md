@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Huddle landing page with single introductory section challenge.](https://www.frontendmentor.io/solutions/html-css-flexbox-mobile-first-responsive-design-and-sass-10dlU_MPbl)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-portafolio/huddle-landing-page-with-single-introductory-section-master/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-mentor-portafolio/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
 

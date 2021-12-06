@@ -23,16 +23,6 @@ Pequeño fragmentos de HMTL, CSS, JS y la implementación de frameworks y librer
     - [Tip calculator app](#tip-calculator-app)
     - [Social media dashboard with theme switcher](#social-media-dashboard-with-theme-switcher)
     - [Crowdfunding product page](#crowdfunding-product-page)
-  - [Proyectos Intermediate](#proyectos-intermediate)
-    - [Easybank landing page](#easybank-landing-page)
-    - [Launch countdown timer](#launch-countdown-timer)
-    - [Calculator app](#calculator-app)
-    - [To Do app](#to-do-app)
-    - [Job listings with filtering](#job-listings-with-filtering)
-    - [IP Address Tracker](#ip-address-tracker)
-  - [Proyectos Advanced](#proyectos-advanced)
-    - [Rock, Paper, Scissors game](#rock-paper-scissors-game)
-    - [REST Countries API with color theme switcher](#rest-countries-api-with-color-theme-switcher)
 
 Los proyectos pertenecen a [frontend mentor](https://www.frontendmentor.io/).
 
@@ -128,56 +118,4 @@ Los proyectos pertenecen a [frontend mentor](https://www.frontendmentor.io/).
 
 [Look at code here](https://github.com/mooenz/frontend-portafolio/tree/main/crowdfunding-product-page-main)
 
-![Desktop](./crowdfunding-product-page-main/solution-capture/mooenz-desktop-solution.png)
-
-## Proyectos Intermediate
-
-### Easybank landing page
-
-[Look at code here]()
-
-![Desktop](.//solution-capture/mooenz-desktop-solution.png)
-
-### Launch countdown timer
-
-[Look at code here]()
-
-![Desktop](.//solution-capture/mooenz-desktop-solution.png)
-
-### Calculator app
-
-[Look at code here]()
-
-![Desktop](.//solution-capture/mooenz-desktop-solution.png)
-
-### To Do app
-
-[Look at code here]()
-
-![Desktop](.//solution-capture/mooenz-desktop-solution.png)
-
-### Job listings with filtering
-
-[Look at code here]()
-
-![Desktop](.//solution-capture/mooenz-desktop-solution.png)
-
-### IP Address Tracker
-
-[Look at code here]()
-
-![Desktop](.//solution-capture/mooenz-desktop-solution.png)
-
-## Proyectos Advanced
-
-### Rock, Paper, Scissors game
-
-[Look at code here]()
-
-![Desktop](.//solution-capture/mooenz-desktop-solution.png)
-
-### REST Countries API with color theme switcher
-
-[Look at code here]()
-
-![Desktop](.//solution-capture/mooenz-desktop-solution.png)
+![Desktop](./crowdfunding-product-page-main/solution-capture/mooenz-desktop-solution.jpg)

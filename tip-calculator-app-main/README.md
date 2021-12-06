@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [FAQ accordion car.](https://www.frontendmentor.io/solutions/html-css-js-flexbox-mobile-first-responsive-design-and-sass-6G1_I9w_4)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-portafolio/tip-calculator-app-main/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-mentor-portafolio/tip-calculator-app-main/)
 
 ## My process
 

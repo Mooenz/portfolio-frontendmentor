@@ -48,7 +48,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Social media dashboard with theme switcher.](https://www.frontendmentor.io/solutions/html-css-scss-flexbox-mobile-first-and-responsive-design-W_i5d1YJ7)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-portafolio/social-media-dashboard-with-theme-switcher-master/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-mentor-portafolio/social-media-dashboard-with-theme-switcher-master/)
 
 ## My process
 

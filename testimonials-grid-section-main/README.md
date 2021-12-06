@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Testimonials grid section challenge.](https://www.frontendmentor.io/solutions/html-css-js-flexbox-mobile-first-responsive-design-and-sass-CvWl1x-7c)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/Frontend-portafolio/testimonials-grid-section-main/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-mentor-portafolio/testimonials-grid-section-main/)
 
 ## My process
 
