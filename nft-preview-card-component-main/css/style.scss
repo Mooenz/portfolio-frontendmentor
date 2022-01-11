@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+  //color primary
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --dark-blue-main-bg: hsl(217, 54%, 11%);
+  --dark-blue-card-bg: hsl(216, 50%, 16%);
+  --dark-blue-blue-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  color: var(--white);
+}
+
+main {
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+  min-width: 375px;
+  height: 100vh;
+  background: var(--dark-blue-main-bg);
+}
+
+.card {
+  background: var(--dark-blue-card-bg);
+  padding: 24px 24px 30px;
+  border-radius: 16px;
+  max-width: 350px;
+
+  &--header {
+    position: relative;
+
+    &-img {
+      object-fit: cover;
+      width: 100%;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    &:hover .overlay {
+      opacity: 0.6;
+      transition-duration: .5s;
+    }
+
+    &:hover .img {
+      opacity: 1;
+      transition-duration: .5s;
+    }
+  }
+
+  &--main {
+    margin: 20px 0;
+  }
+
+  &--footer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-top: 1px solid var(--dark-blue-blue-line);
+    padding: 16px 0 0;
+    font-weight: 400;
+
+    img {
+      height: 33px;
+      width: 33px;
+      border: 1px solid var(--white);
+      border-radius: 50%;
+    }
+
+    &-paragraph {
+      color: var(--soft-blue);
+      font-weight: 300;
+      font-size: 1.6rem;
+      cursor: pointer;
+
+      span {
+        color: var(--white);
+        transition-duration: 0.5s;
+
+        &:hover {
+          color: var(--cyan);
+          transition-duration: 0.5s;
+        }
+      }
+    }
+  }
+
+  &--title {
+    margin: 0 0 20px;
+    font-size: 2.4rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+    &:hover {
+      color: var(--cyan);
+      transition-duration: 0.5s;
+    }
+  }
+
+  &--paragraph {
+    color: var(--soft-blue);
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.5rem;
+    margin: 0 0 20px;
+  }
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  &--container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &--icon {
+    display: block;
+    height: 18px;
+    width: 18px;
+  }
+
+  .ethe {
+    background: url('../assets/images/icon-ethereum.svg') center/contain
+      no-repeat;
+  }
+
+  .clock {
+    background: url('../assets/images/icon-clock.svg') center/contain no-repeat;
+  }
+
+  &--paragraph-ethe {
+    color: var(--cyan);
+    font-weight: 400;
+  }
+
+  &--paragraph-clock {
+    color: var(--soft-blue);
+    font-weight: 300;
+  }
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.img {
+  opacity: 0;
+  height: 48px;
+  width: 48px;
+  z-index: 1;
+  transition-duration: .5s;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: var(--cyan);
+  border-radius: 8px;
+  transition-duration: .5s;
+}
