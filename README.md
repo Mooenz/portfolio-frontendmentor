@@ -8,6 +8,7 @@ Pequeño fragmentos de HMTL, CSS, JS y la implementación de frameworks y librer
   - [Tabla de contenido](#tabla-de-contenido)
   - [Proyectos Newbie](#proyectos-newbie)
     - [Stats preview card component](#stats-preview-card-component)
+    - [Nft preview card component](#nft-preview-card-component)
     - [3 column preview card component main](#3-column-preview-card-component-main)
     - [Article preview component](#article-preview-component)
     - [Order summary component main](#order-summary-component-main)
@@ -33,6 +34,12 @@ Los proyectos pertenecen a [frontend mentor](https://www.frontendmentor.io/).
 [Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/stats-preview-card-component-main)
 
 ![Desktop](./stats-preview-card-component-main/solution-capture/Mooenz-desktop-solution.png)
+
+### Nft preview card component
+
+[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/nft-preview-card-component-main)
+
+![Desktop](./nft-preview-card-component-main/solution-capture/Mooenz-desktop-solution.png)
 
 ### 3 column preview card component main
 
