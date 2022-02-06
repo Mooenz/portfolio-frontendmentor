@@ -1,19 +1,23 @@
-# By Mooenz - Stats preview card component solution
+# By mooenz - Stats preview card component solution
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). 
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Solution screenshot](#solution-screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [By mooenz - Stats preview card component solution](#by-mooenz---stats-preview-card-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Solution screenshot](#solution-screenshot)
+      - [Mobile](#mobile)
+      - [Desktop](#desktop)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -27,11 +31,11 @@ Users should be able to:
 
 #### Mobile
 
-![Mobile](./solution-capture/Mooenz-mobile-solution.png)
+![Mobile](./solution-capture/mooenz-mobile-solution.png)
 
 #### Desktop
 
-![Desktop](./solution-capture/Mooenz-desktop-solution.png)
+![Desktop](./solution-capture/mooenz-desktop-solution.png)
 
 
 ### Links
@@ -78,9 +82,9 @@ I want to learn Sass, React and framework backend (Laravel or Express).
 
 ## Author
 
-- Website - [Mooenz cv](https://mooenz.github.io/curriculum-vitae/)
-- Frontend Mentor - [@Mooenz](https://www.frontendmentor.io/profile/Mooenz)
-- Twitter - [@MooenzDev](https://www.twitter.com/MooenzDev)
+- Website - [mooenz cv](https://mooenz.github.io/curriculum-vitae/)
+- Frontend Mentor - [@mooenz](https://www.frontendmentor.io/profile/mooenz)
+- Twitter - [@mooenzDev](https://www.twitter.com/mooenzDev)
 
 ## Acknowledgments
 
