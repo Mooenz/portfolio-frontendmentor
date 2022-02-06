@@ -43,7 +43,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Article preview component challenge on Frontend Mentor.](https://www.frontendmentor.io/solutions/html-css-sass-flexbox-mobile-first-and-responsive-design-NUnDYtTzz)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-mentor-portafolio/3-column-preview-card-component-main/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/portfolio-frontendmentor/3-column-preview-card-component-main/)
 
 ## My process
 

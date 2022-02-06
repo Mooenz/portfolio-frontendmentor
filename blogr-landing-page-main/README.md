@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [FAQ accordion car.](https://www.frontendmentor.io/solutions/html-css-js-flexbox-mobile-first-responsive-design-sass-and-js-H-TXLc44y)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-mentor-portafolio/blogr-landing-page-main/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/portfolio-frontendmentor/blogr-landing-page-main/)
 
 ## My process
 

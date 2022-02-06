@@ -4,22 +4,23 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Solution screenshot](#Solution-screenshot)  
-    - [Mobile](#Mobile)
-    - [Mobile success](#Mobile-success)
-    - [Mobile error](#Mobile-error)
-    - [Desktop](#Desktop)
-    - [Desktop success](#Desktop-success)
-    - [Desktop error](#Desktop-error)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Mooenz - Ping coming soon page solution](#mooenz---ping-coming-soon-page-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Solution screenshot](#solution-screenshot)
+      - [Mobile](#mobile)
+      - [Mobile success](#mobile-success)
+      - [Mobile error](#mobile-error)
+      - [Desktop](#desktop)
+      - [Desktop success](#desktop-success)
+      - [Desktop error](#desktop-error)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [Continued development](#continued-development)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -53,7 +54,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Ping coming soon page challenge.](https://www.frontendmentor.io/solutions/html-css-flexbox-mobile-first-responsive-design-vanila-js-S-wNd2haz)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-mentor-portafolio//ping-coming-soon-page-master/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/portfolio-frontendmentor//ping-coming-soon-page-master/)
 
 ## My process
 

@@ -4,16 +4,21 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Solution screenshot](#solution-screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [By Mooenz - Sunnyside agency landing page solution](#by-mooenz---sunnyside-agency-landing-page-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Solution screenshot](#solution-screenshot)
+      - [Mobile](#mobile)
+      - [Mobile menu](#mobile-menu)
+      - [Desktop](#desktop)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -42,7 +47,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Sunnyside agency landing page challenge.](https://www.frontendmentor.io/solutions/html-css-js-flexbox-mobile-first-responsive-design-and-sass-BJz9pA1I9)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-mentor-portafolio/sunnyside-agency-landing-page-main/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/portfolio-frontendmentor/sunnyside-agency-landing-page-main/)
 
 ## My process
 

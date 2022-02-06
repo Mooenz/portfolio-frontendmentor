@@ -4,18 +4,20 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Solution screenshot](#solution-screenshot)
-    - [Mobile](#mobile)
-    - [Desktop](#desktop)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [By Mooenz - Testimonials grid section solution](#by-mooenz---testimonials-grid-section-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Solution screenshot](#solution-screenshot)
+      - [Mobile](#mobile)
+      - [Desktop](#desktop)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -39,7 +41,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Testimonials grid section challenge.](https://www.frontendmentor.io/solutions/html-css-js-flexbox-mobile-first-responsive-design-and-sass-CvWl1x-7c)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-mentor-portafolio/testimonials-grid-section-main/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/portfolio-frontendmentor/testimonials-grid-section-main/)
 
 ## My process
 

@@ -4,16 +4,19 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Solution screenshot](#solution-screenshot)
-    - [Mobile](#mobile)
-    - [Desktop](#desktop)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [By Mooenz - Tip calculator app solution](#by-mooenz---tip-calculator-app-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Solution screenshot](#solution-screenshot)
+      - [Mobile](#mobile)
+      - [Desktop](#desktop)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [Continued development](#continued-development)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -36,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [FAQ accordion car.](https://www.frontendmentor.io/solutions/html-css-js-flexbox-mobile-first-responsive-design-and-sass-6G1_I9w_4)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-mentor-portafolio/tip-calculator-app-main/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/portfolio-frontendmentor/tip-calculator-app-main/)
 
 ## My process
 

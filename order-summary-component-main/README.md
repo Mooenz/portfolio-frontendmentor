@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Stats preview card component challenge.](https://www.frontendmentor.io/solutions/html-css-scss-flexbox-mobile-first-and-responsive-design-9uwQw-YAf)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-mentor-portafolio/order-summary-component-main/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/portfolio-frontendmentor/order-summary-component-main/)
 
 ## My process
 

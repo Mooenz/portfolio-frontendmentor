@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [NFT preview card component challenge on Frontend Mentor.](https://www.frontendmentor.io/solutions/html-css-scss-flexbox-mobile-first-and-responsive-design-qthqoim-j)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-mentor-portafolio/nft-preview-card-component-main/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/portfolio-frontendmentor/nft-preview-card-component-main/)
 
 ## My process
 

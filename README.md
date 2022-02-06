@@ -31,61 +31,61 @@ Los proyectos pertenecen a [frontend mentor](https://www.frontendmentor.io/).
 
 ### Stats preview card component
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/stats-preview-card-component-main)
+[Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/stats-preview-card-component-main)
 
-![Desktop](./stats-preview-card-component-main/solution-capture/Mooenz-desktop-solution.png)
+![Desktop](./stats-preview-card-component-main/solution-capture/mooenz-desktop-solution.png)
 
 ### Nft preview card component
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/nft-preview-card-component-main)
+[Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/nft-preview-card-component-main)
 
-![Desktop](./nft-preview-card-component-main/solution-capture/Mooenz-desktop-solution.png)
+![Desktop](./nft-preview-card-component-main/solution-capture/mooenz-desktop-solution.jpg)
 
 ### 3 column preview card component main
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/3-column-preview-card-component-main)
+[Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/3-column-preview-card-component-main)
 
 ![Desktop](./3-column-preview-card-component-main/solution-capture/mooenz-desktop-solution.png)
 
 ### Article preview component
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/article-preview-component-master)
+[Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/article-preview-component-master)
 
 ![Desktop](./article-preview-component-master/solution-capture/mooenz-desktop-solution.png)
 
 ### Order summary component main
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/order-summary-component-main)
+[Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/order-summary-component-main)
 
 ![Desktop](./order-summary-component-main/solution-capture/mooenz-desktop-solution.png)
 
 ### Base apparel coming soon
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/base-apparel-coming-soon-master)
+[Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/base-apparel-coming-soon-master)
 
 ![Desktop](./base-apparel-coming-soon-master/solution-capture/mooenz-desktop-normal-solution.png)
 
 ### Huddle landing page with single introductory section master
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/huddle-landing-page-with-single-introductory-section-master)
+[Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/huddle-landing-page-with-single-introductory-section-master)
 
 ![Desktop](./huddle-landing-page-with-single-introductory-section-master/solution-capture/mooenz-desktop-solution.png)
 
 ### Intro component with component
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/intro-component-with-signup-form-master)
+[Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/intro-component-with-signup-form-master)
 
 ![Desktop](./intro-component-with-signup-form-master/solution-capture/mooenz-desktop-solution.png)
 
 ### Faq accordin card
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/faq-accordion-card-main)
+[Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/faq-accordion-card-main)
 
 ![Desktop](./faq-accordion-card-main/solution-capture/mooenz-desktop-solution.png)
 
 ### Ping single column coming soon page
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/ping-coming-soon-page-master)
+[Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/ping-coming-soon-page-master)
 
 ![Desktop](./ping-coming-soon-page-master/solution-capture/mooenz-desktop-solution.png)
 
@@ -93,36 +93,36 @@ Los proyectos pertenecen a [frontend mentor](https://www.frontendmentor.io/).
 
 ### Testimonials grid section
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/testimonials-grid-section-main)
+[Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/testimonials-grid-section-main)
 
 ![Desktop](./testimonials-grid-section-main/solution-capture/mooenz-desktop-solution.png)
 
 ### Sunnyside agency landing page
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/sunnyside-agency-landing-page-main)
+[Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/sunnyside-agency-landing-page-main)
 
 ![Desktop](./sunnyside-agency-landing-page-main/solution-capture/mooenz-desktop-solution.png)
 
 ### Blogr landing page
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/blogr-landing-page-main)
+[Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/blogr-landing-page-main)
 
 ![Desktop](./blogr-landing-page-main/solution-capture/mooenz-desktop-solution.png)
 
 ### Tip calculator app
 
-[Look at code here](https://github.com/Mooenz/frontend-portafolio/tree/main/tip-calculator-app-main)
+[Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/tip-calculator-app-main)
 
 ![Desktop](./tip-calculator-app-main/solution-capture/mooenz-desktop-solution.png)
 
 ### Social media dashboard with theme switcher
 
-[Look at code here](https://github.com/mooenz/frontend-portafolio/tree/main/social-media-dashboard-with-theme-switcher-master)
+[Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/social-media-dashboard-with-theme-switcher-master)
 
 ![Desktop](./social-media-dashboard-with-theme-switcher-master/solution-capture/mooenz-desktop-dark-solution.jpg)
 
 ### Crowdfunding product page
 
-[Look at code here](https://github.com/mooenz/frontend-portafolio/tree/main/crowdfunding-product-page-main)
+[Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/crowdfunding-product-page-main)
 
 ![Desktop](./crowdfunding-product-page-main/solution-capture/mooenz-desktop-solution.jpg)

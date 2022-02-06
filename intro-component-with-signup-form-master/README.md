@@ -56,7 +56,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Intro component with sign up form solution.](https://www.frontendmentor.io/solutions/html-css-js-flexbox-mobile-first-and-responsive-design-N4b1wXiJv)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/frontend-mentor-portafolio/intro-component-with-signup-form-master/)
+- Live Site URL: [Solution on github pages.](https://mooenz.github.io/portfolio-frontendmentor/intro-component-with-signup-form-master/)
 
 ## My process
 
