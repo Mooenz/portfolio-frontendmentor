@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white:  hsl(0, 0%, 100%);
+  --lightgray: hsl(212, 45%, 89%);
+  --grayishBlue: hsl(220, 15%, 55%)
+  --darkBlue: hsl(218, 44%, 22%);
+}
+
+.main {
+  position: relative;
+  background-color: var(--lightgray);
+}
+
+.card {
+  position: absolute;
+}
+
+.card__image {
+
+}
+
+.card__content {
+
+}
+
