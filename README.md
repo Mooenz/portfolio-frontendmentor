@@ -17,6 +17,7 @@ Pequeño fragmentos de HMTL, CSS, JS y la implementación de frameworks y librer
     - [Intro component with component](#intro-component-with-component)
     - [Faq accordin card](#faq-accordin-card)
     - [Ping single column coming soon page](#ping-single-column-coming-soon-page)
+    - [QR code component](#qr-code-component)
   - [Proyectos Junior](#proyectos-junior)
     - [Testimonials grid section](#testimonials-grid-section)
     - [Sunnyside agency landing page](#sunnyside-agency-landing-page)
@@ -88,6 +89,11 @@ Los proyectos pertenecen a [frontend mentor](https://www.frontendmentor.io/).
 [Look at code here](https://github.com/mooenz/portfolio-frontendmentor/tree/main/ping-coming-soon-page-master)
 
 ![Desktop](./ping-coming-soon-page-master/solution-capture/mooenz-desktop-solution.png)
+
+### QR code component
+[Look at code here](https://github.com/Mooenz/portfolio-frontendmentor/tree/main/qr-code-component-main)
+
+![Desktop](./qr-code-component-main/solution-capture/mooenz-desktop-solution.png)
 
 ## Proyectos Junior
 
