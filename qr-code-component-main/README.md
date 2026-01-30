@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [QR code component challenge on Frontend Mentor.](solution-url)
-- Live Site URL: [Solution on github pages.](https://mooenz.github.io/portfolio-frontendmentor/qr-code-component-main/)
+- Live Site URL: [Solution on github pages.](https://www.frontendmentor.io/solutions/html-css-flexbox-mobile-first-and-responsive-design-q0rJ89ug5R)
 
 ## My process
 
