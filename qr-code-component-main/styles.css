@@ -1,32 +1,64 @@
+:root {
+	--white: hsl(0, 0%, 100%);
+	--lightgray: hsl(212, 45%, 89%);
+	--grayishBlue: hsl(220, 15%, 55%);
+	--darkBlue: hsl(218, 44%, 22%);
+}
+
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-:root {
-  --white:  hsl(0, 0%, 100%);
-  --lightgray: hsl(212, 45%, 89%);
-  --grayishBlue: hsl(220, 15%, 55%)
-  --darkBlue: hsl(218, 44%, 22%);
+html,
+body {
+	font-family: 'Outfit', sans-serif;
+	font-size: 16px;
+	color: var(--darkBlue);
 }
 
 .main {
-  position: relative;
-  background-color: var(--lightgray);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 27.5px;
+	min-height: 100dvh;
+	background-color: var(--lightgray);
 }
 
 .card {
-  position: absolute;
+	width: 100%;
+	max-width: 320px;
+	padding: 16px 16px 40px 16px;
+	border-radius: 20px;
+	box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.05);
+	background-color: var(--white);
 }
 
 .card__image {
-
+	border-radius: 10px;
+	width: 100%;
 }
 
 .card__content {
-
+	text-align: center;
+	padding: 24px 16px 0;
 }
 
+.card__content h1 {
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 1.2;
+	margin-bottom: 16px;
+}
+
+.card__content p {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.4;
+	color: var(--grayishBlue);
+}
